@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8fce5;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .quiz {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>{{tk[0]}}</h1>
+            <h3>Inference: {{tk[1] | safe}}</h3>
+            <img src="/static/imgs/{{page}}.jpeg" alt="{{tk[0]}}">
+            <br><br>
+            <button onclick="showQuiz()">Next</button>
+        </div>
+        <div class="quiz">
+            <h1>Quiz <span id="quiz_id">{{page}}</span></h1>
+            <h2>{{ quiz[0]}}</h2>
+            <form id="quiz">
+                <input type="radio" id="option1" name="quiz" value="1">
+                <label for="option1">{{quiz[1][0]}}</label><br>
+
+                <input type="radio" id="option2" name="quiz" value="2">
+                <label for="option2">{{quiz[1][1]}}</label><br>
+
+                <input type="radio" id="option3" name="quiz" value="3">
+                <label for="option3">{{quiz[1][2]}}</label><br>
+
+                <input type="radio" id="option4" name="quiz" value="4">
+                <label for="option4">{{quiz[1][3]}}</label><br><br>
+                <input type="hidden" id="answer" value="{{quiz[2]}}">
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="result" style="display: none;">
+            <h2>Correct!</h2>
+            <img src="static/thumbs.webp" alt="Thumbs UP!"><br>
+            {% if max_quiz == page|int %}
+            Check tomorrow for the next quiz 🥰
+            {% else %}
+            <a href="/{{page| int +1}}">Next</a>
+            {% endif %}
+        </div>
+        <div class="wresult" style="display: none;">
+            <h2>Wrong!</h2>
+            <img src="static/wrong.gif" alt="Wrong!" width="60%">
+        </div>
+    </div>
+
+    <script>
+        function showQuiz() {
+            document.querySelector('.content').style.display = 'none';
+            document.querySelector('.quiz').style.display = 'block';
+        }
+        // if args is s, showquiz
+        const urlParams = new URLSearchParams(window.location.search);
+        const myParam = urlParams.get('s');
+        if (myParam) {
+            showQuiz();
+        }
+        document.getElementById('quiz').addEventListener('submit', function (event) {
+            event.preventDefault();
+            // index of the selected radio
+            idx = document.querySelector('input[name="quiz"]:checked').value;
+            quiz_id = document.getElementById('quiz_id').innerText;
+            if (idx == document.getElementById('answer').value ) {
+                document.querySelector('.result').style.display = 'block';
+                fetch('/score?score=1&quiz_id='+ quiz_id)
+            }
+            else {
+                document.querySelector('.wresult').style.display = 'block';
+                fetch('/score?score=0&quiz_id='+ quiz_id)
+            }
+        });
+        // on change
+        radios = document.querySelectorAll('input[type=radio][name=quiz]');
+        changeHandler = function (event) {
+            document.querySelector('.result').style.display = 'none';
+            document.querySelector('.wresult').style.display = 'none';
+        };
+        Array.prototype.forEach.call(radios, function (radio) {
+            radio.addEventListener('change', changeHandler);
+        });
+
+    </script>
+</body>
+
+</html>

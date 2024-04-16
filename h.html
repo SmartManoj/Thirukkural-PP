@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8fce5;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .quiz {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>கடவுள் வாழ்த்து / The Praise of God</h1>
+            <h3>Inference: Follow <a href="https://en.m.wikipedia.org/wiki/Pantheism">Pantheism</a>.</h3>
+            <img src="https://pbs.twimg.com/media/F7pPo3nXgAAYvfj?format=jpg&name=medium" alt="Pantheism">
+            <br><br>
+            <button onclick="showQuiz()">Next</button>
+        </div>
+        <div class="quiz">
+            <h1>Quiz</h1>
+            <h2>What is your religion?</h2>
+            <form id="quiz">
+                <input type="radio" id="hindu" name="religion" value="hindu">
+                <label for="hindu">Hindu</label><br>
+                <input type="radio" id="christian" name="religion" value="christian">
+                <label for="christian">Christian</label><br>
+                <input type="radio" id="muslim" name="religion" value="muslim">
+                <label for="muslim">Muslim</label><br>
+                <input type="radio" id="pantheism" name="religion" value="pantheism">
+                <label for="pantheism">Pantheism</label><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="result" style="display: none;">
+            <h2>Correct!</h2>
+            <img src="static/thumbs.webp" alt="Thumbs UP!">
+        </div>
+        <div class="wresult" style="display: none;">
+            <h2>Wrong!</h2>
+            <img src="static/wrong.gif" alt="Wrong!" width="60%">
+        </div>
+    </div>
+
+    <script>
+        function showQuiz() {
+            document.querySelector('.content').style.display = 'none';
+            document.querySelector('.quiz').style.display = 'block';
+        }
+        // if args is s, showquiz
+        const urlParams = new URLSearchParams(window.location.search);
+        const myParam = urlParams.get('s');
+        if (myParam) {
+            showQuiz();
+        }
+        document.getElementById('quiz').addEventListener('submit', function (event) {
+            event.preventDefault();
+            if (document.getElementById('pantheism').checked) {
+                document.querySelector('.result').style.display = 'block';
+                fetch('/score?score=1&quiz_id=1.1')
+            }
+            else {
+                document.querySelector('.wresult').style.display = 'block';
+                fetch('/score?score=0&quiz_id=1.1')
+            }
+        });
+        // on change
+        radios = document.querySelectorAll('input[type=radio][name=religion]');
+        changeHandler = function (event) {
+                document.querySelector('.result').style.display = 'none';
+                document.querySelector('.wresult').style.display = 'none';
+        };
+        Array.prototype.forEach.call(radios, function (radio) {
+                radio.addEventListener('change', changeHandler);
+            });
+
+    </script>
+</body>
+
+</html>
