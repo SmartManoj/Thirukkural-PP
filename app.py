@@ -67,12 +67,14 @@ def auth():
 tks = {
     '1': ['கடவுள் வாழ்த்து / The Praise of God', 'Follow [Pantheism](https://en.m.wikipedia.org/wiki/Pantheism).'],
     '2': ['2. வான்சிறப்பு / The Blessing of Rain','Plant trees to bring the rain.'],
-    '3': ['3. நீத்தார் பெருமை / The Greatness of Ascetics','Build [Artificial general intelligence (AGI)](https://en.wikipedia.org/wiki/Artificial_general_intelligence) ASAP.']
+    '3': ['3. நீத்தார் பெருமை / The Greatness of Ascetics','Build [Artificial general intelligence (AGI)](https://en.wikipedia.org/wiki/Artificial_general_intelligence) ASAP.'],
+    '4': ['4. அறன் வலியுறுத்தல் / Assertion of the Strength of Virtue','Do good deeds!'],
     }
 quizzes = {
     '1': ['What is the correct belief system?', ['Hinduism', 'Christianism', 'Muslimism', 'Pantheism'], 4],
     '2': ['How many saplings will you plant today?', ['None', '1-2', '3-4', 'More than 4'], 4],
     '3': ['How many hours will you spend daily to automate your job?', ['None', '15 minutes', '30 minutes', 'More than 1 hour'], 4],
+    '4': ['How many good deeds will you do today?', ['None', '1-2', '3-4', 'More than 4'], 4],
 }
 @app.route('/<int:page>')
 def page(page):
