@@ -69,12 +69,14 @@ tks = {
     '2': ['2. வான்சிறப்பு / The Blessing of Rain','Plant trees to bring the rain.'],
     '3': ['3. நீத்தார் பெருமை / The Greatness of Ascetics','Build [Artificial general intelligence (AGI)](https://en.wikipedia.org/wiki/Artificial_general_intelligence) ASAP.'],
     '4': ['4. அறன் வலியுறுத்தல் / Assertion of the Strength of Virtue','Do good deeds!'],
+    '5': ['5. இல்வாழ்க்கை / Domestic Life', 'Marry the right partner.'],
     }
 quizzes = {
     '1': ['What is the correct belief system?', ['Hinduism', 'Christianism', 'Muslimism', 'Pantheism'], 4],
     '2': ['How many saplings will you plant today?', ['None', '1-2', '3-4', 'More than 4'], 4],
     '3': ['How many hours will you spend daily to automate your job?', ['None', '15 minutes', '30 minutes', 'More than 1 hour'], 4],
     '4': ['How many good deeds will you do today?', ['None', '1-2', '3-4', 'More than 4'], 4],
+    '5': ['How will you choose the right partner?', ['Astrology', 'Family', 'Friends', 'AI'], 4],
 }
 @app.route('/<int:page>')
 def page(page):
@@ -84,7 +86,14 @@ def page(page):
     page = str(page)
     tk = tks[page]
     tk[1] = markdown.markdown(tk[1])[3:-4]
-    return render_template('h.html', page = page, tk = tk, quiz = quizzes[page], max_quiz = max_quiz)
+    quiz = quizzes[page]
+    # shuffle the options
+    import random
+    correct_answer = quiz[1][quiz[2]-1]
+    quiz[1] = random.sample(quiz[1], len(quiz[1]))
+    quiz[2] = quiz[1].index(correct_answer)+1
+
+    return render_template('h.html', page = page, tk = tk, quiz = quiz, max_quiz = max_quiz)
 
 @app.route('/score')
 def score():
