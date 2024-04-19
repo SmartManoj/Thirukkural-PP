@@ -70,6 +70,7 @@ tks = {
     '3': ['3. நீத்தார் பெருமை / The Greatness of Ascetics','Build [Artificial general intelligence (AGI)](https://en.wikipedia.org/wiki/Artificial_general_intelligence) ASAP.'],
     '4': ['4. அறன் வலியுறுத்தல் / Assertion of the Strength of Virtue','Do good deeds!'],
     '5': ['5. இல்வாழ்க்கை / Domestic Life', 'Marry the right partner.'],
+    '6': ['6. வாழ்க்கைத் துணைநலம் / The Worth of a Wife', 'Have more babies.'],
     }
 quizzes = {
     '1': ['What is the correct belief system?', ['Hinduism', 'Christianism', 'Muslimism', 'Pantheism'], 4],
@@ -77,10 +78,11 @@ quizzes = {
     '3': ['How many hours will you spend daily to automate your job?', ['None', '15 minutes', '30 minutes', 'More than 1 hour'], 4],
     '4': ['How many good deeds will you do today?', ['None', '1-2', '3-4', 'More than 4'], 4],
     '5': ['How will you choose the right partner?', ['Astrology', 'Family', 'Friends', 'AI'], 4],
+    '6': ['How many babies will you have?', ['None', '1-2', '3-4', 'More than 4'], 4],
 }
 @app.route('/<int:page>')
 def page(page):
-    max_quiz = 3
+    max_quiz = len(tks)
     if page>max_quiz:
         return 'Check back tomorrow for more quizzes!'
     page = str(page)
