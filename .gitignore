@@ -1,3 +1,4 @@
 .env
 t.py
 *.db
+git.py

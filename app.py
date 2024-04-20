@@ -71,6 +71,7 @@ tks = {
     '4': ['4. அறன் வலியுறுத்தல் / Assertion of the Strength of Virtue','Do good deeds!'],
     '5': ['5. இல்வாழ்க்கை / Domestic Life', 'Marry the right partner.'],
     '6': ['6. வாழ்க்கைத் துணைநலம் / The Worth of a Wife', 'Have more babies.'],
+    '7': ['7. மக்கட்பேறு / The Wealth of Children', 'Educate your child.'],
     }
 quizzes = {
     '1': ['What is the correct belief system?', ['Hinduism', 'Christianism', 'Muslimism', 'Pantheism'], 4],
@@ -79,6 +80,7 @@ quizzes = {
     '4': ['How many good deeds will you do today?', ['None', '1-2', '3-4', 'More than 4'], 4],
     '5': ['How will you choose the right partner?', ['Astrology', 'Family', 'Friends', 'AI'], 4],
     '6': ['How many babies will you have?', ['None', '1-2', '3-4', 'More than 4'], 4],
+    '7': ['How will you educate your child?', ['School', 'College', 'University', 'AI'], 4],
 }
 @app.route('/<int:page>')
 def page(page):
