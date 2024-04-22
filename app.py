@@ -73,6 +73,7 @@ tks = {
     '6': ['6. வாழ்க்கைத் துணைநலம் / The Worth of a Wife', 'Have more babies.'],
     '7': ['7. மக்கட்பேறு / The Wealth of Children', 'Educate your child.'],
     '8': ['8. அன்புடைமை / The Possession of Love','Show compassion 🥰'],
+    '9': ['9. விருந்தோம்பல் / Hospitality','Care your guests.'],
     }
 quizzes = {
     '1': ['What is the correct belief system?', ['Hinduism', 'Christianism', 'Muslimism', 'Pantheism'], 4],
@@ -83,6 +84,7 @@ quizzes = {
     '6': ['How many babies will you have?', ['None', '1-2', '3-4', 'More than 4'], 4],
     '7': ['How will you educate your child?', ['School', 'College', 'University', 'AI'], 4],
     '8': ['What might be a reason why most people do not show compassion?', ['Lack of understanding or awareness', 'Selfishness or self-centeredness', 'Fear of vulnerability', 'Belief that compassion is not important'], 1],
+    '9': ['What is the best way to care your guests?', ['Food', 'Shelter', 'Love', 'AI'], 3],
 }
 @app.route('/<int:page>')
 def page(page):
