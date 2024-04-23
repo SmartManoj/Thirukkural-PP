@@ -64,37 +64,66 @@ def auth():
     except Exception as e:
         return str(e)
 
-tks = {
-    '1': ['கடவுள் வாழ்த்து / The Praise of God', 'Follow [Pantheism](https://en.m.wikipedia.org/wiki/Pantheism).'],
-    '2': ['2. வான்சிறப்பு / The Blessing of Rain','Plant trees to bring the rain.'],
-    '3': ['3. நீத்தார் பெருமை / The Greatness of Ascetics','Build [Artificial general intelligence (AGI)](https://en.wikipedia.org/wiki/Artificial_general_intelligence) ASAP.'],
-    '4': ['4. அறன் வலியுறுத்தல் / Assertion of the Strength of Virtue','Do good deeds!'],
-    '5': ['5. இல்வாழ்க்கை / Domestic Life', 'Marry the right partner.'],
-    '6': ['6. வாழ்க்கைத் துணைநலம் / The Worth of a Wife', 'Have more babies.'],
-    '7': ['7. மக்கட்பேறு / The Wealth of Children', 'Educate your child.'],
-    '8': ['8. அன்புடைமை / The Possession of Love','Show compassion 🥰'],
-    '9': ['9. விருந்தோம்பல் / Hospitality','Care your guests.'],
-    }
-quizzes = {
-    '1': ['What is the correct belief system?', ['Hinduism', 'Christianism', 'Muslimism', 'Pantheism'], 4],
-    '2': ['How many saplings will you plant today?', ['None', '1-2', '3-4', 'More than 4'], 4],
-    '3': ['How many hours will you spend daily to automate your job?', ['None', '15 minutes', '30 minutes', 'More than 1 hour'], 4],
-    '4': ['How many good deeds will you do today?', ['None', '1-2', '3-4', 'More than 4'], 4],
-    '5': ['How will you choose the right partner?', ['Astrology', 'Family', 'Friends', 'AI'], 4],
-    '6': ['How many babies will you have?', ['None', '1-2', '3-4', 'More than 4'], 4],
-    '7': ['How will you educate your child?', ['School', 'College', 'University', 'AI'], 4],
-    '8': ['What might be a reason why most people do not show compassion?', ['Lack of understanding or awareness', 'Selfishness or self-centeredness', 'Fear of vulnerability', 'Belief that compassion is not important'], 1],
-    '9': ['What is the best way to care your guests?', ['Food', 'Shelter', 'Love', 'AI'], 3],
+tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
+        'Follow [Pantheism](https://en.m.wikipedia.org/wiki/Pantheism).'],
+       ['What is the correct belief system?',
+        ['Hinduism', 'Christianism', 'Muslimism', 'Pantheism'],
+        4]],
+ '10': [['10. இனியவைகூறல் / The Utterance of Pleasant Words',
+         'Speak pleasant words.'],
+        ['Which words will you use when you are angry?',
+         ['Curse', 'Polite', 'Sarcative', 'Expletives'],
+         '2']],
+ '2': [['2. வான்சிறப்பு / The Blessing of Rain',
+        'Plant trees to bring the rain.'],
+       ['How many saplings will you plant today?',
+        ['None', '1-2', '3-4', 'More than 4'],
+        4]],
+ '3': [['3. நீத்தார் பெருமை / The Greatness of Ascetics',
+        'Build [Artificial general intelligence '
+        '(AGI)](https://en.wikipedia.org/wiki/Artificial_general_intelligence) '
+        'ASAP.'],
+       ['How many hours will you spend daily to automate your job?',
+        ['None', '15 minutes', '30 minutes', 'More than 1 hour'],
+        4]],
+ '4': [['4. அறன் வலியுறுத்தல் / Assertion of the Strength of Virtue',
+        'Do good deeds!'],
+       ['How many good deeds will you do today?',
+        ['None', '1-2', '3-4', 'More than 4'],
+        4]],
+ '5': [['5. இல்வாழ்க்கை / Domestic Life', 'Marry the right partner.'],
+       ['How will you choose the right partner?',
+        ['Astrology', 'Family', 'Friends', 'AI'],
+        4]],
+ '6': [['6. வாழ்க்கைத் துணைநலம் / The Worth of a Wife', 'Have more babies.'],
+       ['How many babies will you have?',
+        ['None', '1-2', '3-4', 'More than 4'],
+        4]],
+ '7': [['7. மக்கட்பேறு / The Wealth of Children', 'Educate your child.'],
+       ['How will you educate your child?',
+        ['School', 'College', 'University', 'AI'],
+        4]],
+ '8': [['8. அன்புடைமை / The Possession of Love', 'Show compassion 🥰'],
+       ['What might be a reason why most people do not show compassion?',
+        ['Lack of understanding or awareness',
+         'Selfishness or self-centeredness',
+         'Fear of vulnerability',
+         'Belief that compassion is not important'],
+        1]],
+ '9': [['9. விருந்தோம்பல் / Hospitality', 'Care your guests.'],
+       ['What is the best way to care your guests?',
+        ['Food', 'Shelter', 'Love', 'AI'],
+        3]],
 }
+
 @app.route('/<int:page>')
 def page(page):
     max_quiz = len(tks)
     if page>max_quiz:
         return 'Check back tomorrow for more quizzes!'
     page = str(page)
-    tk = tks[page]
+    tk,quiz = tks[page]
     tk[1] = markdown.markdown(tk[1])[3:-4]
-    quiz = quizzes[page]
     # shuffle the options
     import random
     correct_answer = quiz[1][quiz[2]-1]
