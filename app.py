@@ -114,6 +114,7 @@ tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
         ['Which words will you use when you are angry?',
          ['Curse', 'Polite', 'Sarcative', 'Expletives'],
          '2']],
+'11': [['11. செய்ந்நன்றி அறிதல் / Gratitude','Give [AppreciCoin](https://shareg.pt/56ZzUra)'],['How will you show gratitude?',['Thank you','Gift','Hug','Give AppreciCoin'],'4']],
 }
 
 @app.route('/<int:page>')
