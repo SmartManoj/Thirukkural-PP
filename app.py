@@ -116,6 +116,7 @@ tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
          '2']],
 '11': [['11. செய்ந்நன்றி அறிதல் / Gratitude','Give [AppreciCoin](https://shareg.pt/56ZzUra)'],['How will you show gratitude?',['Thank you','Gift','Hug','Give AppreciCoin'],'4']],
 '12': [['12. நடுவு நிலைமை / Impartiality', 'Follow justice.'], ['What will you do when someone is getting bribed?',['Ignore','Report','Support','Take bribe'],'2']],
+'13':[['13. அடக்கமுடைமை / The Possession of Self-restraint','Be humble.'],['What will you do when someone is boasting?',['Ignore','Confront','Encourage','Boast'],'1']],
 }
 
 @app.route('/<int:page>')
