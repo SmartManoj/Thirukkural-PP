@@ -118,8 +118,9 @@ tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
 '12': [['12. நடுவு நிலைமை / Impartiality', 'Follow justice.'], ['What will you do when someone is getting bribed?',['Ignore','Report','Support','Take bribe'],2]],
 '13':[['13. அடக்கமுடைமை / The Possession of Self-restraint','Be humble.'],['What will you do when someone is boasting?',['Ignore','Confront','Encourage','Boast'],1]],
 '14':[['14. ஒழுக்கமுடைமை / The Possession of Decorum','Be disciplined.'],['What will you do when someone is misbehaving?',['Ignore','Confront','Encourage','Misbehave'],2]],
-'15':[['15. பிறனில் விழையாமை / Not coveting another\'s Wife','Subset of Chapter 18(/20); Don\'t covet others\' wife.'],['What will you do when someone is flirting with your partner?', ['Ignore it', 'Politely intervene and redirect the conversation', 'Find them another partner', 'Join the conversation and defuse the flirting with humor'], 3]],
+'15':[['15. பிறனில் விழையாமை / Not coveting another\'s Wife','Subset of Chapter [18](/18); Don\'t covet others\' wife.'],['What will you do when someone is flirting with your partner?', ['Ignore it', 'Politely intervene and redirect the conversation', 'Find them another partner', 'Join the conversation and defuse the flirting with humor'], 3]],
    '16': [['16. பொறையுடைமை / The Possession of Patience, Forbearance', 'Be a role model.'], ['How will you respond when someone is being impatient with you?', ['React with impatience', 'Stay calm and explain calmly', 'Ignore their impatience', 'Become impatient with them'], 2]],
+'17': ['17. அழுக்காறாமை / Not Envying', 'Don\'t envy.', ['How will you respond when someone achieves something you desire?', ['Feel envious', 'Congratulate them and work smarter', 'Try to undermine their achievement', 'Ignore their achievement'], 2]],
 
 }
 
