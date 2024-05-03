@@ -123,6 +123,7 @@ tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
 '17': [['17. அழுக்காறாமை / Not Envying', 'Don\'t envy.'], ['How will you respond when someone achieves something you desire?', ['Feel envious', 'Congratulate them and work smarter', 'Try to undermine their achievement', 'Ignore their achievement'], 2]],
 '18': [['18. வெஃகாமை / Not Coveting', 'Avoid coveting.'], ['How will you respond when you covet something someone else has?', ['Try to take it from them', 'Be content with what you have', 'Wish them well and work to acquire it through your own efforts', 'Ignore your desire'], 3]],
 '19': [['19. புறங்கூறாமை / Not Backbiting', 'Avoid backbiting.'], ['How will you respond when someone speaks ill of others in front of you?', ['Join in and speak ill with them', 'Politely change the subject', 'Encourage them to consult with the person directly', 'Agree with their criticisms'], 3]],
+'20': [['20. பயனில சொல்லாமை / Against Vain Speaking', 'Speak wisely!'], ['How will you respond when someone is speaking frivolously or without purpose?', ['Join in and speak frivolously', 'Politely steer the conversation towards a meaningful topic', 'Listen without engaging', 'Encourage them to speak more frivolously'], 2]],
 
 
 
