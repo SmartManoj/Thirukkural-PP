@@ -125,6 +125,7 @@ tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
 '19': [['புறங்கூறாமை / Not Backbiting', 'Avoid backbiting.'], ['How will you respond when someone speaks ill of others in front of you?', ['Join in and speak ill with them', 'Politely change the subject', 'Encourage them to consult with the person directly', 'Agree with their criticisms'], 3]],
 '20': [['பயனில சொல்லாமை / Against Vain Speaking', 'Speak wisely!'], ['How will you respond when someone is speaking frivolously or without purpose?', ['Join in and speak frivolously', 'Politely steer the conversation towards a meaningful topic', 'Listen without engaging', 'Encourage them to speak more frivolously'], 2]],
 '21': [['தீவினையச்சம் / Dread of Evil Deeds', 'Avoid evil deeds.'], ['What are the side effects of doing evil deeds?', ['Misfortune and unhappiness', 'Lack of inner peace', 'Loss of reputation', 'Spiritual degradation'], 3]],
+'22': [['ஒப்புரவறிதல் / Duty to Society', 'Help others.'], ['Why do some people not help others?', ['Selfishness', 'Lack of empathy', 'Fear of being exploited', 'Busy lifestyles'], 1]],
 
 
 
