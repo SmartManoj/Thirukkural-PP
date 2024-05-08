@@ -128,7 +128,7 @@ tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
 '22': [['ஒப்புரவறிதல் / Duty to Society', 'Help others.'], ['Why do some people not help others?', ['Selfishness', 'Lack of empathy', 'Fear of being exploited', 'Busy lifestyles'], 1]],
 '23': [['ஈகை / Giving', 'Give something useful to the poor.'], ['What are the benefits of giving to the poor?', ['Improves their living conditions', 'Encourages societal equality', 'Boosts the giver’s morale', 'Creates a sense of community'], 3]],
 '24': [['புகழ் / Renown', 'Result of the [previous chapter](/23).'], ['How does giving to the poor lead to renown?', ['Increases social recognition', 'Builds a positive public image', 'Inspires others to give', 'Strengthens community trust'], 1]],
-
+'25': [['அருளுடைமை / Compassion', 'Be compassionate.'], ['Why is compassion important in society?', ['Promotes emotional support', 'Helps alleviate suffering', 'Strengthens community bonds', 'Encourages empathy and understanding'], 2]],
 
 
 
