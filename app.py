@@ -129,7 +129,7 @@ tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
 '23': [['ஈகை / Giving', 'Give something useful to the poor.'], ['What are the benefits of giving to the poor?', ['Improves their living conditions', 'Encourages societal equality', 'Boosts the giver’s morale', 'Creates a sense of community'], 3]],
 '24': [['புகழ் / Renown', 'Result of the [previous chapter](/23).'], ['How does giving to the poor lead to renown?', ['Increases social recognition', 'Builds a positive public image', 'Inspires others to give', 'Strengthens community trust'], 1]],
 '25': [['அருளுடைமை / Compassion', 'Be compassionate.'], ['Why is compassion important in society?', ['Promotes emotional support', 'Helps alleviate suffering', 'Strengthens community bonds', 'Encourages empathy and understanding'], 2]],
-
+'26': [['புலால் மறுத்தல் / Abstinence from Flesh', 'Be a vegan!'], ['What are the benefits of adopting a vegan lifestyle?', ['Improves personal health', 'Reduces environmental impact', 'Promotes animal welfare', 'Supports sustainable food practices'], 1]],
 
 
 }
