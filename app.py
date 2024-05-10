@@ -130,7 +130,7 @@ tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
 '24': [['புகழ் / Renown', 'Result of the [previous chapter](/23).'], ['How does giving to the poor lead to renown?', ['Increases social recognition', 'Builds a positive public image', 'Inspires others to give', 'Strengthens community trust'], 1]],
 '25': [['அருளுடைமை / Compassion', 'Be compassionate.'], ['Why is compassion important in society?', ['Promotes emotional support', 'Helps alleviate suffering', 'Strengthens community bonds', 'Encourages empathy and understanding'], 2]],
 '26': [['புலால் மறுத்தல் / Abstinence from Flesh', 'Be a vegan!'], ['What are the benefits of adopting a vegan lifestyle?', ['Improves personal health', 'Reduces environmental impact', 'Promotes animal welfare', 'Supports sustainable food practices'], 1]],
-
+'27': [['தவம் / Penance', 'Meditate 🧘'], ['Why do most people not meditate?', ['Lack of awareness', 'Perceived lack of time', 'Difficulty concentrating', 'Skepticism about benefits'], 1]],
 
 }
 
