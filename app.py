@@ -131,7 +131,7 @@ tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
 '25': [['அருளுடைமை / Compassion', 'Be compassionate.'], ['Why is compassion important in society?', ['Promotes emotional support', 'Helps alleviate suffering', 'Strengthens community bonds', 'Encourages empathy and understanding'], 2]],
 '26': [['புலால் மறுத்தல் / Abstinence from Flesh', 'Be a vegan!'], ['What are the benefits of adopting a vegan lifestyle?', ['Improves personal health', 'Reduces environmental impact', 'Promotes animal welfare', 'Supports sustainable food practices'], 1]],
 '27': [['தவம் / Penance', 'Meditate 🧘'], ['Why do most people not meditate?', ['Lack of awareness', 'Perceived lack of time', 'Difficulty concentrating', 'Skepticism about benefits'], 1]],
-
+'28': [['கூடாவொழுக்கம் / Imposture', 'Be yourself!'], ['Why is it important to be yourself?', ['Promotes authenticity', 'Builds self-confidence', 'Encourages personal growth', 'Attracts genuine relationships'], 1]],
 }
 
 @app.route('/<int:page>')
