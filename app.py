@@ -133,6 +133,7 @@ tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
 '27': [['தவம் / Penance', 'Meditate 🧘'], ['Why do most people not meditate?', ['Lack of awareness', 'Perceived lack of time', 'Difficulty concentrating', 'Skepticism about benefits'], 1]],
 '28': [['கூடாவொழுக்கம் / Imposture', 'Be yourself!'], ['Why is it important to be yourself?', ['Promotes authenticity', 'Builds self-confidence', 'Encourages personal growth', 'Attracts genuine relationships'], 1]],
 '29': [['கள்ளாமை / The Absence of Fraud', "Don't steal!"], ['What are the consequences of stealing?', ['Legal repercussions', 'Loss of trust', 'Personal guilt', 'Social stigma'], 2]],
+'30': [['வாய்மை / Veracity', 'Speak truth.'], ['What are the benefits of speaking the truth?', ['Builds trust in relationships', 'Enhances personal integrity', 'Reduces stress from deception', 'Improves societal standards'], 1]],
 }
 
 @app.route('/<int:page>')
