@@ -134,6 +134,7 @@ tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
 '28': [['கூடாவொழுக்கம் / Imposture', 'Be yourself!'], ['Why is it important to be yourself?', ['Promotes authenticity', 'Builds self-confidence', 'Encourages personal growth', 'Attracts genuine relationships'], 1]],
 '29': [['கள்ளாமை / The Absence of Fraud', "Don't steal!"], ['What are the consequences of stealing?', ['Legal repercussions', 'Loss of trust', 'Personal guilt', 'Social stigma'], 2]],
 '30': [['வாய்மை / Veracity', 'Speak truth.'], ['What are the benefits of speaking the truth?', ['Builds trust in relationships', 'Enhances personal integrity', 'Reduces stress from deception', 'Improves societal standards'], 1]],
+'31': [['வெகுளாமை / Restraining Anger', "Don't get angry."], ['What is the primary benefit of restraining anger?', ['Improves mental health', 'Enhances relationships', 'Promotes better decision-making', 'Reduces stress'], 1]],
 }
 
 @app.route('/<int:page>')
