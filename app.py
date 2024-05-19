@@ -139,6 +139,7 @@ tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
 '33': [['கொல்லாமை / Not killing', "Don't kill anything."], ['What are the benefits of not killing?', ['Promotes respect for all life', 'Maintains ecological balance', 'Encourages compassion and empathy', 'Reduces violence in society'], 2]],
 '34': [['நிலையாமை / Instability', 'Do good deeds immediately when you have wealth.'], ['Why is it important to do good deeds immediately when you have wealth?', ['Wealth is transient', 'Maximizes positive impact', 'Encourages others to give', 'Strengthens community bonds'], 1]],
 '35': [['துறவு / Renunciation', 'Abandon negativity!'], ['What is the primary benefit of abandoning negativity?', ['Improves mental health', 'Enhances personal relationships', 'Fosters positive thinking', 'Increases life satisfaction'], 1]],
+'36': [['மெய்யுணர்தல் / Truth-Consciousness', 'Learn the Truth!'], ['What is the primary benefit of learning the truth?', ['Enhances self-awareness', 'Promotes intellectual growth', 'Builds honest relationships', 'Guides moral and ethical decisions'], 1]],
 }
 
 @app.route('/<int:page>')
