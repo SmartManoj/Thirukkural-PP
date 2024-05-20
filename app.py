@@ -140,6 +140,7 @@ tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
 '34': [['நிலையாமை / Instability', 'Do good deeds immediately when you have wealth.'], ['Why is it important to do good deeds immediately when you have wealth?', ['Wealth is transient', 'Maximizes positive impact', 'Encourages others to give', 'Strengthens community bonds'], 1]],
 '35': [['துறவு / Renunciation', 'Abandon negativity!'], ['What is the primary benefit of abandoning negativity?', ['Improves mental health', 'Enhances personal relationships', 'Fosters positive thinking', 'Increases life satisfaction'], 1]],
 '36': [['மெய்யுணர்தல் / Truth-Consciousness', 'Learn the Truth!'], ['What is the primary benefit of learning the truth?', ['Enhances self-awareness', 'Promotes intellectual growth', 'Builds honest relationships', 'Guides moral and ethical decisions'], 1]],
+'37': [['அவாவறுத்தல் / Curbing of Desire', 'Control your desires!'], ['What is the primary benefit of controlling your desires?', ['Increases contentment', 'Reduces stress and anxiety', 'Enhances self-discipline', 'Promotes mindful living'], 2]],
 }
 
 @app.route('/<int:page>')
