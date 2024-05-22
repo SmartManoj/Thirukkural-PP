@@ -64,9 +64,10 @@ def auth():
         return str(e)
 
 tks = {
+    # பால்: அறத்துப்பால்
     "1": [
         [
-            "பால்: அறத்துப்பால்\nகடவுள் வாழ்த்து / The Praise of God",
+            "கடவுள் வாழ்த்து / The Praise of God",
             "Follow [Pantheism](https://en.m.wikipedia.org/wiki/Pantheism).",
         ],
         [
@@ -498,8 +499,9 @@ tks = {
             1,
         ],
     ],
+    # பால்: பொருட்பால்
     "39": [
-        ["பால்: பொருட்பால்\nஇறைமாட்சி / The Greatness of a King", "Don't show partiality!"],
+        ["இறைமாட்சி / The Greatness of a King", "Don't show partiality!"],
         [
             "What is the primary benefit of a king not showing partiality?",
             [
