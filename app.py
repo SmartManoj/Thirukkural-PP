@@ -499,7 +499,7 @@ tks = {
         ],
     ],
     "39": [
-        ["இறைமாட்சி / The Greatness of a King", "Don't show partiality!"],
+        ["பால்: பொருட்பால்\nஇறைமாட்சி / The Greatness of a King", "Don't show partiality!"],
         [
             "What is the primary benefit of a king not showing partiality?",
             [
