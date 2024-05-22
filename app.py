@@ -18,7 +18,6 @@ def ebbok():
     return redirect('https://www.amazon.in/dp/B0CRRW2X7W')
 
 
-
 from flask_sqlalchemy import SQLAlchemy
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
 db = SQLAlchemy(app)
@@ -64,84 +63,454 @@ def auth():
     except Exception as e:
         return str(e)
 
-tks = {'1': [['கடவுள் வாழ்த்து / The Praise of God',
-        'Follow [Pantheism](https://en.m.wikipedia.org/wiki/Pantheism).'],
-       ['What is the correct belief system?',
-        ['Hinduism', 'Christianism', 'Muslimism', 'Pantheism'],
-        4]],
- '2': [['வான்சிறப்பு / The Blessing of Rain',
-        'Plant trees to bring the rain.'],
-       ['How many saplings will you plant today?',
-        ['None', '1-2', '3-4', 'More than 4'],
-        4]],
- '3': [['நீத்தார் பெருமை / The Greatness of Ascetics',
-        'Build [Artificial general intelligence '
-        '(AGI)](https://en.wikipedia.org/wiki/Artificial_general_intelligence) '
-        'ASAP.'],
-       ['How many hours will you spend daily to automate your job?',
-        ['None', '15 minutes', '30 minutes', 'More than 1 hour'],
-        4]],
- '4': [['அறன் வலியுறுத்தல் / Assertion of the Strength of Virtue',
-        'Do good deeds!'],
-       ['How many good deeds will you do today?',
-        ['None', '1-2', '3-4', 'More than 4'],
-        4]],
- '5': [['இல்வாழ்க்கை / Domestic Life', 'Marry the right partner.'],
-       ['How will you choose the right partner?',
-        ['Astrology', 'Family', 'Friends', 'AI'],
-        4]],
- '6': [['வாழ்க்கைத் துணைநலம் / The Worth of a Wife', 'Have more babies.'],
-       ['How many babies will you have?',
-        ['None', '1-2', '3-4', 'More than 4'],
-        4]],
- '7': [['மக்கட்பேறு / The Wealth of Children', 'Educate your child.'],
-       ['How will you educate your child?',
-        ['School', 'College', 'University', 'AI'],
-        4]],
- '8': [['அன்புடைமை / The Possession of Love', 'Show compassion 🥰'],
-       ['What might be a reason why most people do not show compassion?',
-        ['Lack of understanding or awareness',
-         'Selfishness or self-centeredness',
-         'Fear of vulnerability',
-         'Belief that compassion is not important'],
-        1]],
- '9': [['விருந்தோம்பல் / Hospitality', 'Care your guests.'],
-       ['What is the best way to care your guests?',
-        ['Food', 'Shelter', 'Love', 'AI'],
-        3]],
- '10': [['இனியவைகூறல் / The Utterance of Pleasant Words',
-         'Speak pleasant words.'],
-        ['Which words will you use when you are angry?',
-         ['Curse', 'Polite', 'Sarcative', 'Expletives'],
-         2]],
-'11': [['செய்ந்நன்றி அறிதல் / Gratitude','Give [AppreciCoin](https://shareg.pt/56ZzUra)'],['How will you show gratitude?',['Thank you','Gift','Hug','Give AppreciCoin'],4]],
-'12': [['நடுவு நிலைமை / Impartiality', 'Follow justice.'], ['What will you do when someone is getting bribed?',['Ignore','Report','Support','Take bribe'],2]],
-'13':[['அடக்கமுடைமை / The Possession of Self-restraint','Be humble.'],['What will you do when someone is boasting?',['Ignore','Confront','Encourage','Boast'],1]],
-'14':[['ஒழுக்கமுடைமை / The Possession of Decorum','Be disciplined.'],['What will you do when someone is misbehaving?',['Ignore','Confront','Encourage','Misbehave'],2]],
-'15':[['பிறனில் விழையாமை / Not coveting another\'s Wife','Subset of Chapter [18](/18); Don\'t covet others\' wife.'],['What will you do when someone is flirting with your partner?', ['Ignore it', 'Politely intervene and redirect the conversation', 'Find them another partner', 'Join the conversation and defuse the flirting with humor'], 3]],
-   '16': [['பொறையுடைமை / The Possession of Patience, Forbearance', 'Be a role model.'], ['How will you respond when someone is being impatient with you?', ['React with impatience', 'Stay calm and explain calmly', 'Ignore their impatience', 'Become impatient with them'], 2]],
-'17': [['அழுக்காறாமை / Not Envying', 'Don\'t envy.'], ['How will you respond when someone achieves something you desire?', ['Feel envious', 'Congratulate them and work smarter', 'Try to undermine their achievement', 'Ignore their achievement'], 2]],
-'18': [['வெஃகாமை / Not Coveting', 'Avoid coveting.'], ['How will you respond when you covet something someone else has?', ['Try to take it from them', 'Be content with what you have', 'Wish them well and work to acquire it through your own efforts', 'Ignore your desire'], 3]],
-'19': [['புறங்கூறாமை / Not Backbiting', 'Avoid backbiting.'], ['How will you respond when someone speaks ill of others in front of you?', ['Join in and speak ill with them', 'Politely change the subject', 'Encourage them to consult with the person directly', 'Agree with their criticisms'], 3]],
-'20': [['பயனில சொல்லாமை / Against Vain Speaking', 'Speak wisely!'], ['How will you respond when someone is speaking frivolously or without purpose?', ['Join in and speak frivolously', 'Politely steer the conversation towards a meaningful topic', 'Listen without engaging', 'Encourage them to speak more frivolously'], 2]],
-'21': [['தீவினையச்சம் / Dread of Evil Deeds', 'Avoid evil deeds.'], ['What are the side effects of doing evil deeds?', ['Misfortune and unhappiness', 'Lack of inner peace', 'Loss of reputation', 'Spiritual degradation'], 3]],
-'22': [['ஒப்புரவறிதல் / Duty to Society', 'Help others.'], ['Why do some people not help others?', ['Selfishness', 'Lack of empathy', 'Fear of being exploited', 'Busy lifestyles'], 1]],
-'23': [['ஈகை / Giving', 'Give something useful to the poor.'], ['What are the benefits of giving to the poor?', ['Improves their living conditions', 'Encourages societal equality', 'Boosts the giver’s morale', 'Creates a sense of community'], 3]],
-'24': [['புகழ் / Renown', 'Result of the [previous chapter](/23).'], ['How does giving to the poor lead to renown?', ['Increases social recognition', 'Builds a positive public image', 'Inspires others to give', 'Strengthens community trust'], 1]],
-'25': [['அருளுடைமை / Compassion', 'Be compassionate.'], ['Why is compassion important in society?', ['Promotes emotional support', 'Helps alleviate suffering', 'Strengthens community bonds', 'Encourages empathy and understanding'], 2]],
-'26': [['புலால் மறுத்தல் / Abstinence from Flesh', 'Be a vegan!'], ['What are the benefits of adopting a vegan lifestyle?', ['Improves personal health', 'Reduces environmental impact', 'Promotes animal welfare', 'Supports sustainable food practices'], 1]],
-'27': [['தவம் / Penance', 'Meditate 🧘'], ['Why do most people not meditate?', ['Lack of awareness', 'Perceived lack of time', 'Difficulty concentrating', 'Skepticism about benefits'], 1]],
-'28': [['கூடாவொழுக்கம் / Imposture', 'Be yourself!'], ['Why is it important to be yourself?', ['Promotes authenticity', 'Builds self-confidence', 'Encourages personal growth', 'Attracts genuine relationships'], 1]],
-'29': [['கள்ளாமை / The Absence of Fraud', "Don't steal!"], ['What are the consequences of stealing?', ['Legal repercussions', 'Loss of trust', 'Personal guilt', 'Social stigma'], 2]],
-'30': [['வாய்மை / Veracity', 'Speak truth.'], ['What are the benefits of speaking the truth?', ['Builds trust in relationships', 'Enhances personal integrity', 'Reduces stress from deception', 'Improves societal standards'], 1]],
-'31': [['வெகுளாமை / Restraining Anger', "Don't get angry."], ['What is the primary benefit of restraining anger?', ['Improves mental health', 'Enhances relationships', 'Promotes better decision-making', 'Reduces stress'], 1]],
-'32': [['இன்னாசெய்யாமை / Not doing Evil', '1️⃣ Don\'t do harm to any creatures.\n2️⃣ If someone harmed you, show them kindness and forget both the actions.'], ['What are the benefits of not doing evil?', ['Promotes peace and harmony', 'Builds positive karma', 'Strengthens moral integrity', 'Encourages forgiveness and healing'], 2]],
-'33': [['கொல்லாமை / Not killing', "Don't kill anything."], ['What are the benefits of not killing?', ['Promotes respect for all life', 'Maintains ecological balance', 'Encourages compassion and empathy', 'Reduces violence in society'], 2]],
-'34': [['நிலையாமை / Instability', 'Do good deeds immediately when you have wealth.'], ['Why is it important to do good deeds immediately when you have wealth?', ['Wealth is transient', 'Maximizes positive impact', 'Encourages others to give', 'Strengthens community bonds'], 1]],
-'35': [['துறவு / Renunciation', 'Abandon negativity!'], ['What is the primary benefit of abandoning negativity?', ['Improves mental health', 'Enhances personal relationships', 'Fosters positive thinking', 'Increases life satisfaction'], 1]],
-'36': [['மெய்யுணர்தல் / Truth-Consciousness', 'Learn the Truth!'], ['What is the primary benefit of learning the truth?', ['Enhances self-awareness', 'Promotes intellectual growth', 'Builds honest relationships', 'Guides moral and ethical decisions'], 1]],
-'37': [['அவாவறுத்தல் / Curbing of Desire', 'Control your desires!'], ['What is the primary benefit of controlling your desires?', ['Increases contentment', 'Reduces stress and anxiety', 'Enhances self-discipline', 'Promotes mindful living'], 2]],
-'38': [['ஊழ் / Fate', 'Do your duty, and don\'t worry about rewards!'], ['What is the primary benefit of focusing on duty rather than rewards?', ['Reduces anxiety about outcomes', 'Increases job satisfaction', 'Enhances work ethic', 'Promotes intrinsic motivation'], 1]],
+tks = {
+    "1": [
+        [
+            "பால்: அறத்துப்பால்\nகடவுள் வாழ்த்து / The Praise of God",
+            "Follow [Pantheism](https://en.m.wikipedia.org/wiki/Pantheism).",
+        ],
+        [
+            "What is the correct belief system?",
+            ["Hinduism", "Christianism", "Muslimism", "Pantheism"],
+            4,
+        ],
+    ],
+    "2": [
+        ["வான்சிறப்பு / The Blessing of Rain", "Plant trees to bring the rain."],
+        [
+            "How many saplings will you plant today?",
+            ["None", "1-2", "3-4", "More than 4"],
+            4,
+        ],
+    ],
+    "3": [
+        [
+            "நீத்தார் பெருமை / The Greatness of Ascetics",
+            "Build [Artificial general intelligence "
+            "(AGI)](https://en.wikipedia.org/wiki/Artificial_general_intelligence) "
+            "ASAP.",
+        ],
+        [
+            "How many hours will you spend daily to automate your job?",
+            ["None", "15 minutes", "30 minutes", "More than 1 hour"],
+            4,
+        ],
+    ],
+    "4": [
+        ["அறன் வலியுறுத்தல் / Assertion of the Strength of Virtue", "Do good deeds!"],
+        [
+            "How many good deeds will you do today?",
+            ["None", "1-2", "3-4", "More than 4"],
+            4,
+        ],
+    ],
+    "5": [
+        ["இல்வாழ்க்கை / Domestic Life", "Marry the right partner."],
+        [
+            "How will you choose the right partner?",
+            ["Astrology", "Family", "Friends", "AI"],
+            4,
+        ],
+    ],
+    "6": [
+        ["வாழ்க்கைத் துணைநலம் / The Worth of a Wife", "Have more babies."],
+        ["How many babies will you have?", ["None", "1-2", "3-4", "More than 4"], 4],
+    ],
+    "7": [
+        ["மக்கட்பேறு / The Wealth of Children", "Educate your child."],
+        [
+            "How will you educate your child?",
+            ["School", "College", "University", "AI"],
+            4,
+        ],
+    ],
+    "8": [
+        ["அன்புடைமை / The Possession of Love", "Show compassion 🥰"],
+        [
+            "What might be a reason why most people do not show compassion?",
+            [
+                "Lack of understanding or awareness",
+                "Selfishness or self-centeredness",
+                "Fear of vulnerability",
+                "Belief that compassion is not important",
+            ],
+            1,
+        ],
+    ],
+    "9": [
+        ["விருந்தோம்பல் / Hospitality", "Care your guests."],
+        [
+            "What is the best way to care your guests?",
+            ["Food", "Shelter", "Love", "AI"],
+            3,
+        ],
+    ],
+    "10": [
+        ["இனியவைகூறல் / The Utterance of Pleasant Words", "Speak pleasant words."],
+        [
+            "Which words will you use when you are angry?",
+            ["Curse", "Polite", "Sarcative", "Expletives"],
+            2,
+        ],
+    ],
+    "11": [
+        ["செய்ந்நன்றி அறிதல் / Gratitude", "Give [AppreciCoin](https://shareg.pt/56ZzUra)"],
+        [
+            "How will you show gratitude?",
+            ["Thank you", "Gift", "Hug", "Give AppreciCoin"],
+            4,
+        ],
+    ],
+    "12": [
+        ["நடுவு நிலைமை / Impartiality", "Follow justice."],
+        [
+            "What will you do when someone is getting bribed?",
+            ["Ignore", "Report", "Support", "Take bribe"],
+            2,
+        ],
+    ],
+    "13": [
+        ["அடக்கமுடைமை / The Possession of Self-restraint", "Be humble."],
+        [
+            "What will you do when someone is boasting?",
+            ["Ignore", "Confront", "Encourage", "Boast"],
+            1,
+        ],
+    ],
+    "14": [
+        ["ஒழுக்கமுடைமை / The Possession of Decorum", "Be disciplined."],
+        [
+            "What will you do when someone is misbehaving?",
+            ["Ignore", "Confront", "Encourage", "Misbehave"],
+            2,
+        ],
+    ],
+    "15": [
+        [
+            "பிறனில் விழையாமை / Not coveting another's Wife",
+            "Subset of Chapter [18](/18); Don't covet others' wife.",
+        ],
+        [
+            "What will you do when someone is flirting with your partner?",
+            [
+                "Ignore it",
+                "Politely intervene and redirect the conversation",
+                "Find them another partner",
+                "Join the conversation and defuse the flirting with humor",
+            ],
+            3,
+        ],
+    ],
+    "16": [
+        ["பொறையுடைமை / The Possession of Patience, Forbearance", "Be a role model."],
+        [
+            "How will you respond when someone is being impatient with you?",
+            [
+                "React with impatience",
+                "Stay calm and explain calmly",
+                "Ignore their impatience",
+                "Become impatient with them",
+            ],
+            2,
+        ],
+    ],
+    "17": [
+        ["அழுக்காறாமை / Not Envying", "Don't envy."],
+        [
+            "How will you respond when someone achieves something you desire?",
+            [
+                "Feel envious",
+                "Congratulate them and work smarter",
+                "Try to undermine their achievement",
+                "Ignore their achievement",
+            ],
+            2,
+        ],
+    ],
+    "18": [
+        ["வெஃகாமை / Not Coveting", "Avoid coveting."],
+        [
+            "How will you respond when you covet something someone else has?",
+            [
+                "Try to take it from them",
+                "Be content with what you have",
+                "Wish them well and work to acquire it through your own efforts",
+                "Ignore your desire",
+            ],
+            3,
+        ],
+    ],
+    "19": [
+        ["புறங்கூறாமை / Not Backbiting", "Avoid backbiting."],
+        [
+            "How will you respond when someone speaks ill of others in front of you?",
+            [
+                "Join in and speak ill with them",
+                "Politely change the subject",
+                "Encourage them to consult with the person directly",
+                "Agree with their criticisms",
+            ],
+            3,
+        ],
+    ],
+    "20": [
+        ["பயனில சொல்லாமை / Against Vain Speaking", "Speak wisely!"],
+        [
+            "How will you respond when someone is speaking frivolously or without purpose?",
+            [
+                "Join in and speak frivolously",
+                "Politely steer the conversation towards a meaningful topic",
+                "Listen without engaging",
+                "Encourage them to speak more frivolously",
+            ],
+            2,
+        ],
+    ],
+    "21": [
+        ["தீவினையச்சம் / Dread of Evil Deeds", "Avoid evil deeds."],
+        [
+            "What are the side effects of doing evil deeds?",
+            [
+                "Misfortune and unhappiness",
+                "Lack of inner peace",
+                "Loss of reputation",
+                "Spiritual degradation",
+            ],
+            3,
+        ],
+    ],
+    "22": [
+        ["ஒப்புரவறிதல் / Duty to Society", "Help others."],
+        [
+            "Why do some people not help others?",
+            [
+                "Selfishness",
+                "Lack of empathy",
+                "Fear of being exploited",
+                "Busy lifestyles",
+            ],
+            1,
+        ],
+    ],
+    "23": [
+        ["ஈகை / Giving", "Give something useful to the poor."],
+        [
+            "What are the benefits of giving to the poor?",
+            [
+                "Improves their living conditions",
+                "Encourages societal equality",
+                "Boosts the giver’s morale",
+                "Creates a sense of community",
+            ],
+            3,
+        ],
+    ],
+    "24": [
+        ["புகழ் / Renown", "Result of the [previous chapter](/23)."],
+        [
+            "How does giving to the poor lead to renown?",
+            [
+                "Increases social recognition",
+                "Builds a positive public image",
+                "Inspires others to give",
+                "Strengthens community trust",
+            ],
+            1,
+        ],
+    ],
+    "25": [
+        ["அருளுடைமை / Compassion", "Be compassionate."],
+        [
+            "Why is compassion important in society?",
+            [
+                "Promotes emotional support",
+                "Helps alleviate suffering",
+                "Strengthens community bonds",
+                "Encourages empathy and understanding",
+            ],
+            2,
+        ],
+    ],
+    "26": [
+        ["புலால் மறுத்தல் / Abstinence from Flesh", "Be a vegan!"],
+        [
+            "What are the benefits of adopting a vegan lifestyle?",
+            [
+                "Improves personal health",
+                "Reduces environmental impact",
+                "Promotes animal welfare",
+                "Supports sustainable food practices",
+            ],
+            1,
+        ],
+    ],
+    "27": [
+        ["தவம் / Penance", "Meditate 🧘"],
+        [
+            "Why do most people not meditate?",
+            [
+                "Lack of awareness",
+                "Perceived lack of time",
+                "Difficulty concentrating",
+                "Skepticism about benefits",
+            ],
+            1,
+        ],
+    ],
+    "28": [
+        ["கூடாவொழுக்கம் / Imposture", "Be yourself!"],
+        [
+            "Why is it important to be yourself?",
+            [
+                "Promotes authenticity",
+                "Builds self-confidence",
+                "Encourages personal growth",
+                "Attracts genuine relationships",
+            ],
+            1,
+        ],
+    ],
+    "29": [
+        ["கள்ளாமை / The Absence of Fraud", "Don't steal!"],
+        [
+            "What are the consequences of stealing?",
+            ["Legal repercussions", "Loss of trust", "Personal guilt", "Social stigma"],
+            2,
+        ],
+    ],
+    "30": [
+        ["வாய்மை / Veracity", "Speak truth."],
+        [
+            "What are the benefits of speaking the truth?",
+            [
+                "Builds trust in relationships",
+                "Enhances personal integrity",
+                "Reduces stress from deception",
+                "Improves societal standards",
+            ],
+            1,
+        ],
+    ],
+    "31": [
+        ["வெகுளாமை / Restraining Anger", "Don't get angry."],
+        [
+            "What is the primary benefit of restraining anger?",
+            [
+                "Improves mental health",
+                "Enhances relationships",
+                "Promotes better decision-making",
+                "Reduces stress",
+            ],
+            1,
+        ],
+    ],
+    "32": [
+        [
+            "இன்னாசெய்யாமை / Not doing Evil",
+            "1️⃣ Don't do harm to any creatures.\n2️⃣ If someone harmed you, show them kindness and forget both the actions.",
+        ],
+        [
+            "What are the benefits of not doing evil?",
+            [
+                "Promotes peace and harmony",
+                "Builds positive karma",
+                "Strengthens moral integrity",
+                "Encourages forgiveness and healing",
+            ],
+            2,
+        ],
+    ],
+    "33": [
+        ["கொல்லாமை / Not killing", "Don't kill anything."],
+        [
+            "What are the benefits of not killing?",
+            [
+                "Promotes respect for all life",
+                "Maintains ecological balance",
+                "Encourages compassion and empathy",
+                "Reduces violence in society",
+            ],
+            2,
+        ],
+    ],
+    "34": [
+        ["நிலையாமை / Instability", "Do good deeds immediately when you have wealth."],
+        [
+            "Why is it important to do good deeds immediately when you have wealth?",
+            [
+                "Wealth is transient",
+                "Maximizes positive impact",
+                "Encourages others to give",
+                "Strengthens community bonds",
+            ],
+            1,
+        ],
+    ],
+    "35": [
+        ["துறவு / Renunciation", "Abandon negativity!"],
+        [
+            "What is the primary benefit of abandoning negativity?",
+            [
+                "Improves mental health",
+                "Enhances personal relationships",
+                "Fosters positive thinking",
+                "Increases life satisfaction",
+            ],
+            1,
+        ],
+    ],
+    "36": [
+        ["மெய்யுணர்தல் / Truth-Consciousness", "Learn the Truth!"],
+        [
+            "What is the primary benefit of learning the truth?",
+            [
+                "Enhances self-awareness",
+                "Promotes intellectual growth",
+                "Builds honest relationships",
+                "Guides moral and ethical decisions",
+            ],
+            1,
+        ],
+    ],
+    "37": [
+        ["அவாவறுத்தல் / Curbing of Desire", "Control your desires!"],
+        [
+            "What is the primary benefit of controlling your desires?",
+            [
+                "Increases contentment",
+                "Reduces stress and anxiety",
+                "Enhances self-discipline",
+                "Promotes mindful living",
+            ],
+            2,
+        ],
+    ],
+    "38": [
+        ["ஊழ் / Fate", "Do your duty, and don't worry about rewards!"],
+        [
+            "What is the primary benefit of focusing on duty rather than rewards?",
+            [
+                "Reduces anxiety about outcomes",
+                "Increases job satisfaction",
+                "Enhances work ethic",
+                "Promotes intrinsic motivation",
+            ],
+            1,
+        ],
+    ],
+    "39": [
+        ["இறைமாட்சி / The Greatness of a King", "Don't show partiality!"],
+        [
+            "What is the primary benefit of a king not showing partiality?",
+            [
+                "Ensures justice for all",
+                "Builds trust among subjects",
+                "Strengthens leadership credibility",
+                "Promotes social harmony",
+            ],
+            1,
+        ],
+    ],
 }
 
 
