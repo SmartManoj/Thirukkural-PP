@@ -513,6 +513,19 @@ tks = {
             1,
         ],
     ],
+    "40": [
+        ["கல்வி / Learning", "Learn good things thoroughly and follow that."],
+        [
+            "What is the primary benefit of thorough learning?",
+            [
+                "Deepens understanding",
+                "Enhances problem-solving skills",
+                "Builds a strong knowledge base",
+                "Promotes lifelong learning",
+            ],
+            1,
+        ],
+    ],
 }
 
 
