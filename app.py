@@ -527,7 +527,7 @@ tks = {
         ],
     ],
     "41": [
-        ["கல்லாமை / Illiteracy", "Side effects of not following the previous chapter"],
+        ["கல்லாமை / Illiteracy", "Side effects of not following [the previous chapter](/40)."],
         [
             "What is the primary drawback of illiteracy?",
             [
