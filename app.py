@@ -526,6 +526,19 @@ tks = {
             1,
         ],
     ],
+    "41": [
+        ["கல்லாமை / Illiteracy", "Side effects of not following the previous chapter"],
+        [
+            "What is the primary drawback of illiteracy?",
+            [
+                "Limits career opportunities",
+                "Hinders personal growth",
+                "Restricts access to information",
+                "Impacts quality of life",
+            ],
+            4,
+        ],
+    ],
 }
 
 
