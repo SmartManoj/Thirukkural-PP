@@ -527,7 +527,10 @@ tks = {
         ],
     ],
     "41": [
-        ["கல்லாமை / Illiteracy", "Side effects of not following [the previous chapter](/40)."],
+        [
+            "கல்லாமை / Illiteracy",
+            "Side effects of not following [the previous chapter](/40).",
+        ],
         [
             "What is the primary drawback of illiteracy?",
             [
@@ -537,6 +540,19 @@ tks = {
                 "Impacts quality of life",
             ],
             4,
+        ],
+    ],
+    "42": [
+        ["கேள்வி / Hearing", "Listen to good things."],
+        [
+            "What is the primary benefit of listening to good things?",
+            [
+                "Gains wisdom",
+                "Improves moral character",
+                "Enhances knowledge",
+                "Promotes positive thinking",
+            ],
+            1,
         ],
     ],
 }
