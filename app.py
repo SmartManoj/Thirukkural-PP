@@ -555,6 +555,19 @@ tks = {
             1,
         ],
     ],
+    "43": [
+        ["அறிவுடைமை / The Possession of Knowledge", "Possess True Knowledge."],
+        [
+            "What is the primary benefit of possessing true knowledge?",
+            [
+                "Enables informed decisions",
+                "Enhances critical thinking",
+                "Builds intellectual confidence",
+                "Fosters lifelong learning",
+            ],
+            1,
+        ],
+    ],
 }
 
 
