@@ -568,6 +568,19 @@ tks = {
             1,
         ],
     ],
+    "44": [
+        ["குற்றங்கடிதல் / The Correction of Faults", "Right your wrongs!"],
+        [
+            "What is the primary benefit of correcting your faults?",
+            [
+                "Restores trust",
+                "Promotes personal growth",
+                "Enhances relationships",
+                "Improves self-respect",
+            ],
+            1,
+        ],
+    ],
 }
 
 
