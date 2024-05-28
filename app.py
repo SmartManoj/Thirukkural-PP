@@ -581,7 +581,19 @@ tks = {
             1,
         ],
     ],
-    
+    "45": [
+        ["பெரியாரைத் துணைக்கோடல் / Seeking the Aid of Great Men", "Have a mentor!"],
+        [
+            "What is the primary benefit of having a mentor?",
+            [
+                "Gains valuable insights",
+                "Receives guidance and support",
+                "Accelerates personal development",
+                "Builds a strong network",
+            ],
+            2,
+        ],
+    ],
 }
 
 
