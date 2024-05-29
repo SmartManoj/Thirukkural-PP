@@ -594,6 +594,19 @@ tks = {
             2,
         ],
     ],
+    "46": [
+        ["சிற்றினஞ்சேராமை / Avoiding mean Associations", "Correct negativity!"],
+        [
+            "What is the primary benefit of correcting negativity?",
+            [
+                "Maintains positive mindset",
+                "Protects personal integrity",
+                "Encourages healthy relationships",
+                "Promotes personal growth",
+            ],
+            1,
+        ],
+    ],
 }
 
 
