@@ -607,6 +607,19 @@ tks = {
             1,
         ],
     ],
+    "47": [
+        ["தெரிந்துசெயல்வகை / Acting after due Consideration", "Do thoughtful action!"],
+        [
+            "What is the primary benefit of acting after due consideration?",
+            [
+                "Reduces mistakes",
+                "Increases success rate",
+                "Builds a good reputation",
+                "Enhances decision-making skills",
+            ],
+            1,
+        ],
+    ],
 }
 
 
