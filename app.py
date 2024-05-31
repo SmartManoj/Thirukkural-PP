@@ -620,6 +620,7 @@ tks = {
             1,
         ],
     ],
+    '48': [['வலியறிதல் / The Knowledge of Power', 'Know your strength and act accordingly!'], ['What is the primary benefit of knowing your strength and acting accordingly?', ['Enhances confidence', 'Optimizes resource usage', 'Increases effectiveness', 'Promotes realistic goal setting'], 1]],
 }
 
 
