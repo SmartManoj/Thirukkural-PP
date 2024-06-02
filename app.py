@@ -650,7 +650,7 @@ tks = {
         ],
     ],
     "50": [
-        ["இடனறிதல் / Knowing the Place", "Act locally unlike Zoot Suit Riots (1943)."],
+        ["இடனறிதல் / Knowing the Place", "Act locally unlike [Zoot Suit Riots (1943)](https://en.wikipedia.org/wiki/Zoot_Suit_Riots)"],
         [
             "What is the primary benefit of acting locally?",
             [
