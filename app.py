@@ -649,6 +649,19 @@ tks = {
             2,
         ],
     ],
+    "50": [
+        ["இடனறிதல் / Knowing the Place", "Act locally unlike Zoot Suit Riots (1943)."],
+        [
+            "What is the primary benefit of acting locally?",
+            [
+                "Promotes community cohesion",
+                "Ensures cultural sensitivity",
+                "Optimizes resource allocation",
+                "Reduces conflict",
+            ],
+            4,
+        ],
+    ],
 }
 
 
