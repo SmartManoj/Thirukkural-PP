@@ -650,7 +650,10 @@ tks = {
         ],
     ],
     "50": [
-        ["இடனறிதல் / Knowing the Place", "Act locally unlike [Zoot Suit Riots (1943)](https://en.wikipedia.org/wiki/Zoot_Suit_Riots)"],
+        [
+            "இடனறிதல் / Knowing the Place",
+            "Act locally unlike [Zoot Suit Riots (1943)](https://en.wikipedia.org/wiki/Zoot_Suit_Riots)",
+        ],
         [
             "What is the primary benefit of acting locally?",
             [
@@ -660,6 +663,19 @@ tks = {
                 "Reduces conflict",
             ],
             4,
+        ],
+    ],
+    "51": [
+        ["தெரிந்துதெளிதல் / Selection and Confidence", "Choose your leader confidently!"],
+        [
+            "What is the primary benefit of choosing your leader confidently?",
+            [
+                "Ensures strong leadership",
+                "Builds trust in governance",
+                "Promotes stability and progress",
+                "Encourages active participation",
+            ],
+            1,
         ],
     ],
 }
