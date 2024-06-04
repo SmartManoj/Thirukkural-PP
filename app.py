@@ -678,6 +678,19 @@ tks = {
             1,
         ],
     ],
+    "52": [
+        ["தெரிந்துவினையாடல் / Selection and Employment", "Assign tasks wisely!"],
+        [
+            "What is the primary benefit of assigning tasks wisely?",
+            [
+                "Increases productivity",
+                "Ensures task suitability",
+                "Enhances team morale",
+                "Optimizes resource utilization",
+            ],
+            1,
+        ],
+    ],
 }
 
 
