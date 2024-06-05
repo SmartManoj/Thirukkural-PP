@@ -691,6 +691,19 @@ tks = {
             1,
         ],
     ],
+    "53": [
+        ["சுற்றந்தழால் / Cherishing Kinsmen", "Build a companion bot for your relatives!"],
+        [
+            "What is the primary benefit of cherishing kinsmen?",
+            [
+                "Strengthens family bonds",
+                "Provides emotional support",
+                "Ensures mutual assistance",
+                "Creates a sense of belonging",
+            ],
+            1,
+        ],
+    ],
 }
 
 
