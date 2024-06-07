@@ -720,6 +720,19 @@ tks = {
             3,
         ],
     ],
+    "55": [
+        ["செங்கோன்மை / The Right Sceptre", "Do Greater Good!"],
+        [
+            "What is the primary benefit of doing greater good?",
+            [
+                "Ensures justice",
+                "Promotes public trust",
+                "Encourages ethical leadership",
+                "Fosters societal harmony",
+            ],
+            4,
+        ],
+    ],
 }
 
 
