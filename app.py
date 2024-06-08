@@ -732,6 +732,7 @@ tks = {
             ],
             4,
         ],
+        '56': [['கொடுங்கோன்மை / The Cruel Sceptre', 'Avoid cruelty!'], ['What is the primary benefit of avoiding cruelty?', ['Promotes justice', 'Builds public trust', 'Encourages humane behavior', 'Fosters societal harmony'], 3]],
     ],
 }
 
