@@ -746,6 +746,7 @@ tks = {
             3,
         ],
     ],
+    '57': [['வெருவந்தசெய்யாமை / Absence of Terrorism', 'End terrorism!'], ['What is the primary benefit of ending terrorism?', ['Promotes global security', 'Fosters societal harmony', 'Encourages economic growth', 'Builds public trust'], 2]],
 }
 
 
