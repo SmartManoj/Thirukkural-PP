@@ -746,7 +746,32 @@ tks = {
             3,
         ],
     ],
-    '57': [['வெருவந்தசெய்யாமை / Absence of Terrorism', 'End terrorism!'], ['What is the primary benefit of ending terrorism?', ['Promotes global security', 'Fosters societal harmony', 'Encourages economic growth', 'Builds public trust'], 2]],
+    "57": [
+        ["வெருவந்தசெய்யாமை / Absence of Terrorism", "End terrorism!"],
+        [
+            "What is the primary benefit of ending terrorism?",
+            [
+                "Promotes global security",
+                "Fosters societal harmony",
+                "Encourages economic growth",
+                "Builds public trust",
+            ],
+            2,
+        ],
+    ],
+    "58": [
+        ["கண்ணோட்டம் / Benignity", "Subset of [Chapter 8](/8); Be kind 🥰"],
+        [
+            "What is the primary benefit of being kind?",
+            [
+                "Promotes social harmony",
+                "Builds strong relationships",
+                "Encourages empathy",
+                "Enhances personal happiness",
+            ],
+            4,
+        ],
+    ],
 }
 
 
