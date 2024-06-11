@@ -772,6 +772,19 @@ tks = {
             4,
         ],
     ],
+    "59": [
+        ["ஒற்றாடல் / Detectives", "Be a Sherlock 🕵️‍♂️"],
+        [
+            "What is the primary benefit of having detective skills?",
+            [
+                "Enhances problem-solving abilities",
+                "Improves critical thinking",
+                "Strengthens observational skills",
+                "Promotes justice",
+            ],
+            1,
+        ],
+    ],
 }
 
 
