@@ -785,6 +785,19 @@ tks = {
             1,
         ],
     ],
+    "60": [
+        ["ஊக்கமுடைமை / Energy", "Practice yoga 🧘"],
+        [
+            "What is the primary benefit of practicing yoga?",
+            [
+                "Increases physical strength",
+                "Improves mental clarity",
+                "Boosts overall energy levels",
+                "Enhances flexibility",
+            ],
+            3,
+        ],
+    ],
 }
 
 
