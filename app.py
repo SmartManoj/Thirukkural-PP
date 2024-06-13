@@ -798,6 +798,19 @@ tks = {
             3,
         ],
     ],
+    "61": [
+        ["மடியின்மை / Unsluggishness", "Be proactive 💪"],
+        [
+            "What is the primary benefit of being proactive?",
+            [
+                "Increases productivity",
+                "Reduces stress",
+                "Enhances problem-solving skills",
+                "Builds self-confidence",
+            ],
+            1,
+        ],
+    ],
 }
 
 
