@@ -837,6 +837,19 @@ tks = {
             2,
         ],
     ],
+    "64": [
+        ["அமைச்சு / The Office of Minister of State", "Choose Virtuous Decisions."],
+        [
+            "What is the primary benefit of choosing virtuous decisions?",
+            [
+                "Ensures ethical governance",
+                "Builds public trust",
+                "Promotes justice",
+                "Enhances societal welfare",
+            ],
+            1,
+        ],
+    ],
 }
 
 
