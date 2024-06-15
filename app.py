@@ -824,6 +824,19 @@ tks = {
             1,
         ],
     ],
+    "63": [
+        ["இடுக்கணழியாமை / Hopefulness in Trouble", "Always smile 🥰"],
+        [
+            "What is the primary benefit of remaining hopeful in trouble?",
+            [
+                "Reduces stress",
+                "Improves mental health",
+                "Increases resilience",
+                "Promotes problem-solving",
+            ],
+            2,
+        ],
+    ],
 }
 
 
