@@ -850,6 +850,19 @@ tks = {
             1,
         ],
     ],
+    "65": [
+        ["சொல்வன்மை / Power of Speech", "Speak precisely."],
+        [
+            "What is the primary benefit of speaking precisely?",
+            [
+                "Avoids misunderstandings",
+                "Conveys clear messages",
+                "Enhances credibility",
+                "Promotes effective communication",
+            ],
+            1,
+        ],
+    ],
 }
 
 
