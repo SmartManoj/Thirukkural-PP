@@ -863,6 +863,8 @@ tks = {
             1,
         ],
     ],
+    
+'66': [['வினைத்தூய்மை / Purity in Action', 'Act purely!'], ['What is the primary benefit of acting purely?', ['Maintains moral integrity', 'Builds trust with others', 'Promotes self-respect', 'Ensures ethical outcomes'], 2]],
 }
 
 
