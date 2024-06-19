@@ -863,8 +863,32 @@ tks = {
             1,
         ],
     ],
-    
-'66': [['வினைத்தூய்மை / Purity in Action', 'Act purely!'], ['What is the primary benefit of acting purely?', ['Maintains moral integrity', 'Builds trust with others', 'Promotes self-respect', 'Ensures ethical outcomes'], 2]],
+    "66": [
+        ["வினைத்தூய்மை / Purity in Action", "Act purely!"],
+        [
+            "What is the primary benefit of acting purely?",
+            [
+                "Maintains moral integrity",
+                "Builds trust with others",
+                "Promotes self-respect",
+                "Ensures ethical outcomes",
+            ],
+            2,
+        ],
+    ],
+    "67": [
+        ["வினைத்திட்பம் / Power in Action", "Have willpower!"],
+        [
+            "What is the primary benefit of having willpower?",
+            [
+                "Achieves difficult goals",
+                "Increases resilience",
+                "Improves self-discipline",
+                "Enhances decision-making",
+            ],
+            1,
+        ],
+    ],
 }
 
 
