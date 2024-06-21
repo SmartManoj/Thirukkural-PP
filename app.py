@@ -889,7 +889,32 @@ tks = {
             1,
         ],
     ],
-    '68': [['வினைசெயல்வகை / Modes of Action', 'Plan and Act!'], ['What is the primary benefit of planning and acting?', ['Increases success rate', 'Reduces errors', 'Enhances efficiency', 'Promotes goal achievement'], 1]],
+    "68": [
+        ["வினைசெயல்வகை / Modes of Action", "Plan and Act!"],
+        [
+            "What is the primary benefit of planning and acting?",
+            [
+                "Increases success rate",
+                "Reduces errors",
+                "Enhances efficiency",
+                "Promotes goal achievement",
+            ],
+            1,
+        ],
+    ],
+    "69": [
+        ["தூது / The Envoy", "Criticize constructively!"],
+        [
+            "What is the primary benefit of constructive criticism?",
+            [
+                "Promotes personal growth",
+                "Builds mutual respect",
+                "Encourages improvement",
+                "Enhances communication",
+            ],
+            3,
+        ],
+    ],
 }
 
 
