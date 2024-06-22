@@ -915,6 +915,19 @@ tks = {
             3,
         ],
     ],
+    "70": [
+        ["மன்னரைச் சேர்ந்தொழுதல் / Conduct in the Presence of the King", "Show respect 🙏"],
+        [
+            "What is the primary benefit of showing respect in all situations?",
+            [
+                "Builds positive relationships",
+                "Ensures favorable treatment",
+                "Demonstrates loyalty",
+                "Maintains social order",
+            ],
+            1,
+        ],
+    ],
 }
 
 
