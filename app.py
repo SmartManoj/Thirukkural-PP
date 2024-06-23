@@ -928,6 +928,19 @@ tks = {
             1,
         ],
     ],
+    "71": [
+        ["குறிப்பறிதல் / The Knowledge of Indications", "Read faces!"],
+        [
+            "What is the primary benefit of reading facial expressions?",
+            [
+                "Detects underlying emotions",
+                "Builds empathy",
+                "Improves social interactions",
+                "Strengthens relationships",
+            ],
+            4,
+        ],
+    ],
 }
 
 
