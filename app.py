@@ -941,6 +941,19 @@ tks = {
             4,
         ],
     ],
+    "72": [
+        ["அவையறிதல் / The Knowledge of the Council Chamber", "Read surroundings!"],
+        [
+            "What is the primary benefit of reading your surroundings?",
+            [
+                "Enhances situational awareness",
+                "Improves decision-making",
+                "Promotes safety",
+                "Builds strategic advantage",
+            ],
+            1,
+        ],
+    ],
 }
 
 
