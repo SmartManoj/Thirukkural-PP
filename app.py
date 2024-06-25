@@ -954,6 +954,19 @@ tks = {
             1,
         ],
     ],
+    "73": [
+        ["அவையஞ்சாமை / Not to dread the Council", "Speak boldly!"],
+        [
+            "What is the primary benefit of speaking boldly?",
+            [
+                "Builds confidence",
+                "Gains respect",
+                "Encourages open dialogue",
+                "Promotes effective communication",
+            ],
+            1,
+        ],
+    ],
 }
 
 
