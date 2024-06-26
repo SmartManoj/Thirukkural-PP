@@ -967,6 +967,19 @@ tks = {
             1,
         ],
     ],
+    "74": [
+        ["நாடு / The Land", "Respect the land!"],
+        [
+            "What is the primary benefit of respecting the land?",
+            [
+                "Promotes environmental sustainability",
+                "Preserves natural resources",
+                "Enhances community well-being",
+                "Ensures long-term prosperity",
+            ],
+            1,
+        ],
+    ],
 }
 
 
