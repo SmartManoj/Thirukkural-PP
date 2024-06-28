@@ -980,7 +980,32 @@ tks = {
             1,
         ],
     ],
-'75': [['அரண் / The Fortification', 'Build a Fort!'], ['What is the primary benefit of building a strong foundation in modern times?', ['Ensures security', 'Strengthens organizational structure', 'Supports long-term success', 'Enhances resilience'], 1]],
+    "75": [
+        ["அரண் / The Fortification", "Build a Fort!"],
+        [
+            "What is the primary benefit of building a strong foundation in modern times?",
+            [
+                "Ensures security",
+                "Strengthens organizational structure",
+                "Supports long-term success",
+                "Enhances resilience",
+            ],
+            1,
+        ],
+    ],
+    "76": [
+        ["பொருள்செயல்வகை / Way of Accumulating Wealth", "Honestly accumulate wealth 💰"],
+        [
+            "What is the primary benefit of honestly accumulating wealth?",
+            [
+                "Builds a positive reputation",
+                "Ensures sustainable growth",
+                "Promotes financial stability",
+                "Enhances personal integrity",
+            ],
+            1,
+        ],
+    ],
 }
 
 
