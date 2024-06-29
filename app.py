@@ -1006,6 +1006,7 @@ tks = {
             1,
         ],
     ],
+    '77': [['படைமாட்சி / The Excellence of an Army', 'Maintain Peace 🕊'], ['What is the primary benefit of maintaining peace?', ['Ensures societal stability', 'Promotes economic development', 'Enhances quality of life', 'Fosters international cooperation'], 1]],
 }
 
 
