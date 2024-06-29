@@ -1006,7 +1006,32 @@ tks = {
             1,
         ],
     ],
-    '77': [['படைமாட்சி / The Excellence of an Army', 'Maintain Peace 🕊'], ['What is the primary benefit of maintaining peace?', ['Ensures societal stability', 'Promotes economic development', 'Enhances quality of life', 'Fosters international cooperation'], 1]],
+    "77": [
+        ["படைமாட்சி / The Excellence of an Army", "Maintain Peace 🕊"],
+        [
+            "What is the primary benefit of maintaining peace?",
+            [
+                "Ensures societal stability",
+                "Promotes economic development",
+                "Enhances quality of life",
+                "Fosters international cooperation",
+            ],
+            1,
+        ],
+    ],
+    "78": [
+        ["படைச்செருக்கு / Military Spirit", "Build your robot 🤖"],
+        [
+            "What is the primary benefit of building a robot?",
+            [
+                "Increases efficiency",
+                "Promotes innovation",
+                "Supports complex tasks",
+                "Enhances productivity",
+            ],
+            1,
+        ],
+    ],
 }
 
 
