@@ -1032,6 +1032,7 @@ tks = {
             1,
         ],
     ],
+    '79': [['நட்பு / Friendship', 'Cultivate Friendship 🤗'], ['What is the primary benefit of cultivating friendship?', ['Provides emotional support', 'Enhances well-being', 'Promotes a sense of belonging', 'Builds a strong social network'], 2]],
 }
 
 
