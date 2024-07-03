@@ -1058,6 +1058,7 @@ tks = {
             1,
         ],
     ],
+    '81': [['பழைமை / Familiarity', 'Protect your friendship 🔒'], ['What is the primary benefit of protecting your friendship?', ['Strengthens trust', 'Enhances emotional support', 'Maintains long-term bonds', 'Promotes mutual understanding'], 3]],
 }
 
 
