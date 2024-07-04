@@ -1058,7 +1058,32 @@ tks = {
             1,
         ],
     ],
-    '81': [['பழைமை / Familiarity', 'Protect your friendship 🔒'], ['What is the primary benefit of protecting your friendship?', ['Strengthens trust', 'Enhances emotional support', 'Maintains long-term bonds', 'Promotes mutual understanding'], 3]],
+    "81": [
+        ["பழைமை / Familiarity", "Protect your friendship 🔒"],
+        [
+            "What is the primary benefit of protecting your friendship?",
+            [
+                "Strengthens trust",
+                "Enhances emotional support",
+                "Maintains long-term bonds",
+                "Promotes mutual understanding",
+            ],
+            3,
+        ],
+    ],
+    "82": [
+        ["தீ நட்பு / Evil Friendship", "Prefer solitude over harmful companionship!"],
+        [
+            "What is the primary benefit of preferring solitude over harmful companionship?",
+            [
+                "Protects mental health",
+                "Promotes personal growth",
+                "Avoids negative influences",
+                "Enhances self-awareness",
+            ],
+            3,
+        ],
+    ],
 }
 
 
