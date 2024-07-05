@@ -1084,6 +1084,7 @@ tks = {
             3,
         ],
     ],
+    '83': [['கூடாநட்பு / Unreal Friendship', 'Side effects of not following [chapter 80](/80)'], ['What is the primary side effect of not reforming friendships?', ['Leads to betrayal', 'Causes emotional distress', 'Involves false support', 'Results in trust issues'], 2]],
 }
 
 
