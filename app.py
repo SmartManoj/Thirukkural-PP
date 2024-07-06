@@ -1084,7 +1084,35 @@ tks = {
             3,
         ],
     ],
-    '83': [['கூடாநட்பு / Unreal Friendship', 'Side effects of not following [chapter 80](/80)'], ['What is the primary side effect of not reforming friendships?', ['Leads to betrayal', 'Causes emotional distress', 'Involves false support', 'Results in trust issues'], 2]],
+    "83": [
+        [
+            "கூடாநட்பு / Unreal Friendship",
+            "Side effects of not following [chapter 80](/80)",
+        ],
+        [
+            "What is the primary side effect of not reforming friendships?",
+            [
+                "Leads to betrayal",
+                "Causes emotional distress",
+                "Involves false support",
+                "Results in trust issues",
+            ],
+            2,
+        ],
+    ],
+    "84": [
+        ["பேதைமை / Folly", "Use ChatGPT (https://chat.openai.com/)!"],
+        [
+            "What is the primary benefit of using ChatGPT?",
+            [
+                "Provides accurate information",
+                "Enhances learning",
+                "Offers quick assistance",
+                "Supports decision-making",
+            ],
+            3,
+        ],
+    ],
 }
 
 
