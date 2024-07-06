@@ -1101,7 +1101,7 @@ tks = {
         ],
     ],
     "84": [
-        ["பேதைமை / Folly", "Use ChatGPT (https://chat.openai.com/)!"],
+        ["பேதைமை / Folly", "Use [ChatGPT](https://chat.openai.com/)!"],
         [
             "What is the primary benefit of using ChatGPT?",
             [
