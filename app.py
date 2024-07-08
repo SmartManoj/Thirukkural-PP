@@ -1114,6 +1114,7 @@ tks = {
         ],
     ],
     '85': [['புல்லறிவாண்மை / Ignorance', 'Side effects of not following [the previous chapter](/84)'], ['What is the primary side effect of not using ChatGPT for assistance?', ['Leads to misinformation', 'Slows down learning', 'Reduces problem-solving efficiency', 'Increases decision-making errors'], 3]],
+    '86': [['இகல் / Hostility', 'Don\'t hate!'], ['What is the primary benefit of avoiding hostility?', ['Promotes peace', 'Improves mental health', 'Strengthens relationships', 'Enhances community harmony'], 1]],
 }
 
 
