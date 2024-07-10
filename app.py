@@ -1113,9 +1113,61 @@ tks = {
             3,
         ],
     ],
-    '85': [['புல்லறிவாண்மை / Ignorance', 'Side effects of not following [the previous chapter](/84)'], ['What is the primary side effect of not using ChatGPT for assistance?', ['Leads to misinformation', 'Slows down learning', 'Reduces problem-solving efficiency', 'Increases decision-making errors'], 3]],
-    '86': [['இகல் / Hostility', 'Don\'t hate!'], ['What is the primary benefit of avoiding hostility?', ['Promotes peace', 'Improves mental health', 'Strengthens relationships', 'Enhances community harmony'], 1]],
-    '87': [['பகைமாட்சி / The Might of Hatred', 'Be Vigilant!'], ['What is the primary benefit of being vigilant?', ['Prevents conflicts', 'Enhances security', 'Promotes awareness', 'Strengthens defense'], 2]],
+    "85": [
+        [
+            "புல்லறிவாண்மை / Ignorance",
+            "Side effects of not following [the previous chapter](/84)",
+        ],
+        [
+            "What is the primary side effect of not using ChatGPT for assistance?",
+            [
+                "Leads to misinformation",
+                "Slows down learning",
+                "Reduces problem-solving efficiency",
+                "Increases decision-making errors",
+            ],
+            3,
+        ],
+    ],
+    "86": [
+        ["இகல் / Hostility", "Don't hate!"],
+        [
+            "What is the primary benefit of avoiding hostility?",
+            [
+                "Promotes peace",
+                "Improves mental health",
+                "Strengthens relationships",
+                "Enhances community harmony",
+            ],
+            1,
+        ],
+    ],
+    "87": [
+        ["பகைமாட்சி / The Might of Hatred", "Be Vigilant!"],
+        [
+            "What is the primary benefit of being vigilant?",
+            [
+                "Prevents conflicts",
+                "Enhances security",
+                "Promotes awareness",
+                "Strengthens defense",
+            ],
+            2,
+        ],
+    ],
+    "88": [
+        ["பகைத்திறந்தெரிதல் / Knowing the Quality of Hate", "Befriend Your Enemy!"],
+        [
+            "What is the primary benefit of befriending your enemy?",
+            [
+                "Promotes peace",
+                "Builds mutual respect",
+                "Transforms hostility into friendship",
+                "Encourages understanding",
+            ],
+            3,
+        ],
+    ],
 }
 
 
