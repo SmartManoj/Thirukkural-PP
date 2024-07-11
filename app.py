@@ -1168,6 +1168,22 @@ tks = {
             3,
         ],
     ],
+    "89": [
+        [
+            "உட்பகை / Enmity within",
+            "Side effects of not following [chapter 53](/53)",
+        ],
+        [
+            "What is the primary side effect of not cultivating friendship?",
+            [
+                "Leads to distrust",
+                "Causes isolation",
+                "Breeds resentment",
+                "Increases conflicts",
+            ],
+            4,
+        ],
+    ],
 }
 
 
