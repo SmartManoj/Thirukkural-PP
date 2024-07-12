@@ -1184,6 +1184,19 @@ tks = {
             4,
         ],
     ],
+    "90": [
+        ["பெரியாரைப் பிழையாமை / Not Offending the Great", "Show respect to the Great!"],
+        [
+            "What is the primary benefit of showing respect to the great?",
+            [
+                "Builds positive relationships",
+                "Gains valuable mentorship",
+                "Earns respect in return",
+                "Promotes social harmony",
+            ],
+            4,
+        ],
+    ],
 }
 
 
