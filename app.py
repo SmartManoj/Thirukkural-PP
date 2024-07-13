@@ -1197,6 +1197,19 @@ tks = {
             4,
         ],
     ],
+    "91": [
+        ["பெண்வழிச்சேறல் / Being led by Women", "Avoid dominance in your relationship!"],
+        [
+            "What is the primary benefit of avoiding dominance in your relationship?",
+            [
+                "Promotes equality",
+                "Enhances mutual respect",
+                "Strengthens partnership",
+                "Fosters open communication",
+            ],
+            1,
+        ],
+    ],
 }
 
 
