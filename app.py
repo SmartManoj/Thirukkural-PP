@@ -1236,7 +1236,9 @@ def page(page):
         return 'Check back tomorrow for more quizzes!'
     page = str(page)
     tk,quiz = tks[page]
-    tk[1] = tk[1].replace('\n', '<br>')
+    if '\n' in tk[1]:
+        tk[1] = tk[1].replace('\n', '<br>')
+        tk[1] = '<br>'+tk[1]
     tk[1] = markdown.markdown(tk[1])[3:-4]
     # shuffle the options
     import random
