@@ -1210,7 +1210,22 @@ tks = {
             1,
         ],
     ],
-    '92': [['வரைவின்மகளிர் / Wanton Women', '1️⃣ Avoid Harmful Relationships!\n2️⃣ Prioritize Love over Material Desires'], ['What is the primary benefit of avoiding harmful relationships?', ['Protects emotional well-being', 'Promotes healthy connections', 'Reduces stress', 'Encourages personal growth'], 2]],
+    "92": [
+        [
+            "வரைவின்மகளிர் / Wanton Women",
+            "1️⃣ Avoid Harmful Relationships!\n2️⃣ Prioritize Love over Material Desires",
+        ],
+        [
+            "What is the primary benefit of avoiding harmful relationships?",
+            [
+                "Protects emotional well-being",
+                "Promotes healthy connections",
+                "Reduces stress",
+                "Encourages personal growth",
+            ],
+            2,
+        ],
+    ],
 }
 
 
@@ -1221,6 +1236,7 @@ def page(page):
         return 'Check back tomorrow for more quizzes!'
     page = str(page)
     tk,quiz = tks[page]
+    tk[1] = tk[1].replace('\n', '<br>')
     tk[1] = markdown.markdown(tk[1])[3:-4]
     # shuffle the options
     import random
