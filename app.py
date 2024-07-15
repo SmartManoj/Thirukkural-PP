@@ -1226,6 +1226,19 @@ tks = {
             2,
         ],
     ],
+    "93": [
+        ["கள்ளுண்ணாமை / Not Drinking Palm-Wine", "Be a teetotaler!"],
+        [
+            "What is the primary benefit of being a teetotaler?",
+            [
+                "Improves self-discipline",
+                "Promotes self-control",
+                "Reduces risk of addiction",
+                "Enhances overall well-being",
+            ],
+            4,
+        ],
+    ],
 }
 
 
