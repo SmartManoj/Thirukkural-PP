@@ -1239,6 +1239,19 @@ tks = {
             4,
         ],
     ],
+    "94": [
+        ["சூது / Gambling", "Don't Gamble!"],
+        [
+            "What is the primary benefit of not gambling?",
+            [
+                "Ensures financial stability",
+                "Reduces stress",
+                "Promotes responsible behavior",
+                "Enhances personal well-being",
+            ],
+            1,
+        ],
+    ],
 }
 
 
