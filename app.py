@@ -1252,6 +1252,22 @@ tks = {
             1,
         ],
     ],
+    "95": [
+        [
+            "மருந்து / Medicine",
+            "1️⃣ Eat Only When Hungry!\n2️⃣ Take treatment for the root cause!",
+        ],
+        [
+            "What is the primary benefit of eating only when hungry?",
+            [
+                "Reduces the need for medicine",
+                "Prevents disease",
+                "Maintains optimal body weight",
+                "Enhances overall well-being",
+            ],
+            2,
+        ],
+    ],
 }
 
 
