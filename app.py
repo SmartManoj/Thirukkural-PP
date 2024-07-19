@@ -1281,6 +1281,19 @@ tks = {
             2,
         ],
     ],
+    "97": [
+        ["மானம் / Honour", "Hold Honor High!"],
+        [
+            "What is the primary benefit of holding honor high?",
+            [
+                "Builds a positive reputation",
+                "Earns respect from others",
+                "Enhances self-esteem",
+                "Promotes ethical behavior",
+            ],
+            3,
+        ],
+    ],
 }
 
 
