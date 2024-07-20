@@ -487,7 +487,7 @@ tks = {
         ],
     ],
     "38": [
-        ["ஊழ் / Fate", "Do your duty, and don't worry about rewards!"],
+        ["ஊழ் / Fate", "Do your duty without expecting the rewards!"],
         [
             "What is the primary benefit of focusing on duty rather than rewards?",
             [
@@ -1292,6 +1292,19 @@ tks = {
                 "Promotes ethical behavior",
             ],
             3,
+        ],
+    ],
+    "98": [
+        ["பெருமை / Greatness", "Do the Greatest Things!"],
+        [
+            "What is the primary benefit of striving for greatness?",
+            [
+                "Achieves significant impact",
+                "Inspires others",
+                "Builds a lasting legacy",
+                "Enhances personal fulfillment",
+            ],
+            1,
         ],
     ],
 }
