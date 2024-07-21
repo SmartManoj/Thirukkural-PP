@@ -1307,6 +1307,19 @@ tks = {
             1,
         ],
     ],
+    "99": [
+        ["சான்றாண்மை / Perfectness", "Strive for Perfection!"],
+        [
+            "What is the primary benefit of striving for perfection?",
+            [
+                "Sets high standards",
+                "Encourages continuous improvement",
+                "Enhances quality of work",
+                "Builds a strong reputation",
+            ],
+            3,
+        ],
+    ],
 }
 
 
