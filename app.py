@@ -1320,6 +1320,7 @@ tks = {
             3,
         ],
     ],
+    '100': [['பண்புடைமை / Courtesy', 'Show Courtesy!'], ['What is the primary benefit of showing courtesy?', ['Builds positive relationships', 'Promotes respect and kindness', 'Enhances social interactions', 'Creates a pleasant environment'], 1]],
 }
 
 
