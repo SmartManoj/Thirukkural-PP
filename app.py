@@ -1333,6 +1333,19 @@ tks = {
             1,
         ],
     ],
+    "101": [
+        ["நன்றியில்செல்வம் / Wealth without Benefaction", "Utilize your Wealth!"],
+        [
+            "What is the primary benefit of utilizing your wealth?",
+            [
+                "Supports charitable causes",
+                "Promotes social good",
+                "Enhances personal satisfaction",
+                "Contributes to community development",
+            ],
+            3,
+        ],
+    ],
 }
 
 
