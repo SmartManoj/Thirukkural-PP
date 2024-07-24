@@ -1349,7 +1349,7 @@ tks = {
     "102": [
         ["நாணுடைமை / Shame", "The action to do when not following [Chapter 4](/4)"],
         [
-            "What is the primary action to take when not doing good deeds?",
+            "What is the next action to take when not doing good deeds?",
             [
                 "Acknowledge your mistakes",
                 "Seek forgiveness",
