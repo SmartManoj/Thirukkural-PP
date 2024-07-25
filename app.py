@@ -1359,6 +1359,19 @@ tks = {
             3,
         ],
     ],
+    "103": [
+        ["குடிசெயல்வகை / The Way of Maintaining the Family", "Work Smart, Not Hard!"],
+        [
+            "What is the primary benefit of working smart instead of hard?",
+            [
+                "Increases efficiency",
+                "Reduces stress",
+                "Optimizes time management",
+                "Enhances work-life balance",
+            ],
+            2,
+        ],
+    ],
 }
 
 
