@@ -1372,6 +1372,19 @@ tks = {
             2,
         ],
     ],
+    "104": [
+        ["உழவு / Farming", "Automate the Farming!"],
+        [
+            "What is the primary benefit of automating farming?",
+            [
+                "Increases productivity",
+                "Reduces labor costs",
+                "Enhances efficiency",
+                "Promotes sustainable practices",
+            ],
+            1,
+        ],
+    ],
 }
 
 
