@@ -1398,6 +1398,22 @@ tks = {
             2,
         ],
     ],
+    "106": [
+        [
+            "இரவு / Mendicancy",
+            "[Join](https://beggarscorporation.com/join-us.html) [Beggar's Corporation!](https://beggarscorporation.com/)",
+        ],
+        [
+            "What is the primary benefit of joining Beggar's Corporation?",
+            [
+                "Reduces poverty and creates responsibility",
+                "Provides support and resources",
+                "Promotes dignity and respect",
+                "Creates a sense of community",
+            ],
+            1,
+        ],
+    ],
 }
 
 
