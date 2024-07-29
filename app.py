@@ -1414,6 +1414,22 @@ tks = {
             1,
         ],
     ],
+    "107": [
+        [
+            "இரவச்சம் / The Dread of Mendicancy",
+            "Side effects of not following [the previous chapter](/106)",
+        ],
+        [
+            "What is the primary side effect of not reducing poverty and creating responsibility?",
+            [
+                "Increases dependence on charity",
+                "Promotes long-term poverty",
+                "Reduces self-sufficiency",
+                "Fails to create accountability",
+            ],
+            2,
+        ],
+    ],
 }
 
 
