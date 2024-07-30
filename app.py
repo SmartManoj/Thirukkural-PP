@@ -1430,6 +1430,22 @@ tks = {
             2,
         ],
     ],
+    "108": [
+        [
+            "கயமை / Baseness",
+            "Side effects of not following [chapter 4](/4)",
+        ],
+        [
+            "What is the primary side effect of not doing good deeds?",
+            [
+                "Decreases moral integrity",
+                "Promotes selfish behavior",
+                "Damages reputation",
+                "Reduces trust from others",
+            ],
+            1,
+        ],
+    ],
 }
 
 
