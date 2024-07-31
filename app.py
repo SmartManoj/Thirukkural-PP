@@ -1446,6 +1446,20 @@ tks = {
             1,
         ],
     ],
+    # பால்: காமத்துப்பால்
+    "109": [
+        ["தகையணங்குறுத்தல் / The Pre-marital Love", "Cherish heartfelt connection 🫶"],
+        [
+            "What is the primary benefit of cherishing heartfelt connections?",
+            [
+                "Strengthens emotional bonds",
+                "Ensures mutual respect",
+                "Fosters trust and understanding",
+                "Enhances emotional well-being",
+            ],
+            1,
+        ],
+    ],
 }
 
 
