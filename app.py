@@ -1460,6 +1460,7 @@ tks = {
             1,
         ],
     ],
+    '110': [['குறிப்பறிதல் / Recognition of the Signs', 'Speak with eyes 😍'], ['What is the primary benefit of recognizing signs in love?', ['Enhances emotional connection', 'Strengthens silent communication', 'Enhances relationship dynamics', 'Encourages empathy'], 1]]
 }
 
 
