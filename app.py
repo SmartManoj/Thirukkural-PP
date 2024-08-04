@@ -1486,6 +1486,19 @@ tks = {
             2,
         ],
     ],
+    "112": [
+        ["நலம்புனைந்துரைத்தல் / The Praise of her Beauty", "Admire natural beauty 🌹"],
+        [
+            "What is the primary benefit of admiring natural beauty?",
+            [
+                "Boosts self-esteem",
+                "Strengthens emotional connection",
+                "Enhances appreciation for partner",
+                "Fosters mutual respect",
+            ],
+            3,
+        ],
+    ],
 }
 
 
