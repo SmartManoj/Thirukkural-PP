@@ -1499,6 +1499,7 @@ tks = {
             3,
         ],
     ],
+    '113': [['காதற்சிறப்புரைத்தல் / Declaration of Love\'s special Excellence', 'Embrace oneness 💞'], ['What is the primary benefit of embracing oneness in love?', ['Deepens mutual commitment', 'Strengthens emotional unity', 'Fosters a sense of belonging', 'Encourages unwavering support'], 2]]
 }
 
 
