@@ -1499,7 +1499,35 @@ tks = {
             3,
         ],
     ],
-    '113': [['காதற்சிறப்புரைத்தல் / Declaration of Love\'s special Excellence', 'Embrace oneness 💞'], ['What is the primary benefit of embracing oneness in love?', ['Deepens mutual commitment', 'Strengthens emotional unity', 'Fosters a sense of belonging', 'Encourages unwavering support'], 2]]
+    "113": [
+        [
+            "காதற்சிறப்புரைத்தல் / Declaration of Love's special Excellence",
+            "Embrace oneness 💞",
+        ],
+        [
+            "What is the primary benefit of embracing oneness in love?",
+            [
+                "Deepens mutual commitment",
+                "Strengthens emotional unity",
+                "Fosters a sense of belonging",
+                "Encourages unwavering support",
+            ],
+            2,
+        ],
+    ],
+    "114": [
+        ["நாணுத்துறவுரைத்தல் / The Abandonment of Reserve", "Build Love Guru Bot 🤖"],
+        [
+            "What is the primary benefit of building Love Guru Bot?",
+            [
+                "Provides relationship advice",
+                "Facilitates better communication",
+                "Encourages emotional expression",
+                "Offers personalized tips",
+            ],
+            2,
+        ],
+    ],
 }
 
 
