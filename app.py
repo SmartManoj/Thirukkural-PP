@@ -1528,6 +1528,22 @@ tks = {
             2,
         ],
     ],
+    "115": [
+        [
+            "அலரறிவுறுத்தல் / The Announcement of the Rumour",
+            "Side effects of not following [the previous chapter](/114)",
+        ],
+        [
+            "What is the primary side effect of rumors spreading?",
+            [
+                "Damages reputation",
+                "Creates mistrust",
+                "Leads to misunderstandings",
+                "Weakens relationships",
+            ],
+            1,
+        ],
+    ],
 }
 
 
