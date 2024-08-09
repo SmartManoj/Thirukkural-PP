@@ -1557,6 +1557,22 @@ tks = {
             1,
         ],
     ],
+    "117": [
+        [
+            "படர்மெலிந்திரங்கல் / Complainings",
+            "Side effects of not following the previous chapter",
+        ],
+        [
+            "What is the primary consequence of self-complaining?",
+            [
+                "Deepens emotional suffering",
+                "Leads to self-pity",
+                "Weakens self-resolve",
+                "Increases feelings of helplessness",
+            ],
+            1,
+        ],
+    ],
 }
 
 
