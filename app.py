@@ -1560,7 +1560,7 @@ tks = {
     "117": [
         [
             "படர்மெலிந்திரங்கல் / Complainings",
-            "Side effects of not following the previous chapter",
+            "Side effects of not following [the previous chapter](/116)",
         ],
         [
             "What is the primary consequence of self-complaining?",
