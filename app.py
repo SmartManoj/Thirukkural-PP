@@ -1573,6 +1573,22 @@ tks = {
             1,
         ],
     ],
+    "118": [
+        [
+            "கண்விதுப்பழிதல் / Eyes consumed with Grief",
+            "Side effects of not seeing [the previous chapter](/117)",
+        ],
+        [
+            "What is the primary side effect of eyes consumed with grief?",
+            [
+                "Leads to overwhelming sorrow",
+                "Causes emotional exhaustion",
+                "Deepens feelings of despair",
+                "Weakens emotional resilience",
+            ],
+            3,
+        ],
+    ],
 }
 
 
