@@ -1589,6 +1589,22 @@ tks = {
             3,
         ],
     ],
+    "119": [
+        [
+            "பசப்புறுபருவரல் / The Pallid Hue",
+            "Side effects of not following [the previous chapter](/118)",
+        ],
+        [
+            "What is the primary emotional impact of the pallid hue caused by grief?",
+            [
+                "Intensifies feelings of despair",
+                "Reflects deep emotional pain",
+                "Leads to social withdrawal",
+                "Triggers self-reflection",
+            ],
+            1,
+        ],
+    ],
 }
 
 
