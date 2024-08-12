@@ -1605,6 +1605,7 @@ tks = {
             1,
         ],
     ],
+    '120': [['தனிப்படர்மிகுதி / The Solitary Anguish', 'Join in your partner\'s journey 💑'], ['What is the primary benefit of joining in your partner\'s journey?', ['Strengthens emotional bonds', 'Fosters mutual understanding', 'Reduces feelings of isolation', 'Enhances relationship resilience'], 3]]
 }
 
 
