@@ -1605,7 +1605,35 @@ tks = {
             1,
         ],
     ],
-    '120': [['தனிப்படர்மிகுதி / The Solitary Anguish', 'Join in your partner\'s journey 💑'], ['What is the primary benefit of joining in your partner\'s journey?', ['Strengthens emotional bonds', 'Fosters mutual understanding', 'Reduces feelings of isolation', 'Enhances relationship resilience'], 3]]
+    "120": [
+        ["தனிப்படர்மிகுதி / The Solitary Anguish", "Join in your partner's journey 💑"],
+        [
+            "What is the primary benefit of joining in your partner's journey?",
+            [
+                "Strengthens emotional bonds",
+                "Fosters mutual understanding",
+                "Reduces feelings of isolation",
+                "Enhances relationship resilience",
+            ],
+            3,
+        ],
+    ],
+    "121": [
+        [
+            "நினைந்தவர்புலம்பல் / Sad Memories",
+            "Side effects of not following [the previous chapter](/120)",
+        ],
+        [
+            "What is the primary side effect of dwelling on sad memories?",
+            [
+                "Increases emotional pain",
+                "Prolongs feelings of loneliness",
+                "Hinders emotional healing",
+                "Deepens feelings of regret",
+            ],
+            3,
+        ],
+    ],
 }
 
 
