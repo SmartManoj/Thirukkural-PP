@@ -1634,6 +1634,22 @@ tks = {
             3,
         ],
     ],
+    "122": [
+        [
+            "கனவுநிலையுரைத்தல் / The Visions of the Night",
+            "Side effects of not dreaming [the previous chapter](/121)",
+        ],
+        [
+            "What is the primary side effect of disturbing dreams?",
+            [
+                "Disrupts emotional stability",
+                "Leads to emotional exhaustion",
+                "Affects overall well-being",
+                "Causes persistent anxiety",
+            ],
+            1,
+        ],
+    ],
 }
 
 
