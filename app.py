@@ -1650,6 +1650,22 @@ tks = {
             1,
         ],
     ],
+    "123": [
+        [
+            "பொழுதுகண்டிரங்கல் / Lamentations at Eventide",
+            "Side effects of not following [the previous chapter](/122)",
+        ],
+        [
+            "What is the primary side effect of lamenting at eventide?",
+            [
+                "Prolongs emotional distress",
+                "Disrupts evening routines",
+                "Deepens feelings of loneliness",
+                "Hinders emotional recovery",
+            ],
+            3,
+        ],
+    ],
 }
 
 
