@@ -1666,6 +1666,22 @@ tks = {
             3,
         ],
     ],
+    "124": [
+        [
+            "உறுப்புநலனழிதல் / Wasting Away",
+            "Side effects of not addressing [the previous chapter](/123)",
+        ],
+        [
+            "What is the primary side effect of wasting away?",
+            [
+                "Causes both physical and mental deterioration",
+                "Leads to chronic fatigue",
+                "Accelerates overall decline",
+                "Triggers severe physical exhaustion",
+            ],
+            3,
+        ],
+    ],
 }
 
 
