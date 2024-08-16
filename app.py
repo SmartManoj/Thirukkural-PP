@@ -1686,6 +1686,7 @@ tks = {
 
 
 @app.route('/<int:page>')
+@app.route('/c<int:page>')
 def page(page):
     max_quiz = len(tks)
     if page>max_quiz:
