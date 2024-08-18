@@ -1682,6 +1682,22 @@ tks = {
             3,
         ],
     ],
+    "125": [
+        [
+            "நெஞ்சொடுகிளத்தல் / Soliloquy",
+            "Side effects of not following [the previous chapter](/124)",
+        ],
+        [
+            "What is the primary side effect of engaging in a soliloquy?",
+            [
+                "Intensifies feelings of isolation",
+                "Increases emotional turmoil",
+                "Deepens self-reflection",
+                "Weakens social connections",
+            ],
+            2,
+        ],
+    ],
 }
 
 
