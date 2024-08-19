@@ -1698,6 +1698,22 @@ tks = {
             2,
         ],
     ],
+    "126": [
+        [
+            "நிறையழிதல் / Reserve Overcome",
+            "Side effects of ignoring [the previous chapter](/125)",
+        ],
+        [
+            "What is the primary side effect of overcoming reserve?",
+            [
+                "Leads to emotional vulnerability",
+                "Breaks down personal boundaries",
+                "Increases the risk of regret",
+                "Weakens self-control",
+            ],
+            1,
+        ],
+    ],
 }
 
 
