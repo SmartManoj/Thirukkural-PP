@@ -1714,6 +1714,22 @@ tks = {
             1,
         ],
     ],
+    "127": [
+        [
+            "அவர்வயின்விதும்பல் / Mutual Desire",
+            "Side effects of not following [the previous chapter](/126)",
+        ],
+        [
+            "What is the primary side effect of unfulfilled mutual desire?",
+            [
+                "Leads to emotional frustration",
+                "Creates a sense of longing",
+                "Weakens the bond between partners",
+                "Increases emotional distance",
+            ],
+            1,
+        ],
+    ],
 }
 
 
