@@ -1730,6 +1730,19 @@ tks = {
             1,
         ],
     ],
+    "128": [
+        ["குறிப்பறிவுறுத்தல் / The Reading of the Signs", "Decipher subtle signals 🧐"],
+        [
+            "What is the primary benefit of deciphering subtle signals in a relationship?",
+            [
+                "Enhances communication",
+                "Deepens emotional understanding",
+                "Prevents misunderstandings",
+                "Strengthens the bond between partners",
+            ],
+            2,
+        ],
+    ],
 }
 
 
