@@ -1756,7 +1756,35 @@ tks = {
             3,
         ],
     ],
-    '130': [['நெஞ்சொடுபுலத்தல் / Expostulation with Oneself', 'Side effects of not following [the previous chapter](/129)'], ['What is the primary side effect of expostulating with oneself?', ['Increases self-doubt', 'Amplifies emotional turmoil', 'Weakens mental clarity', 'Leads to indecision'], 2]],
+    "130": [
+        [
+            "நெஞ்சொடுபுலத்தல் / Expostulation with Oneself",
+            "Side effects of not following [the previous chapter](/129)",
+        ],
+        [
+            "What is the primary side effect of expostulating with oneself?",
+            [
+                "Increases self-doubt",
+                "Amplifies emotional turmoil",
+                "Weakens mental clarity",
+                "Leads to indecision",
+            ],
+            2,
+        ],
+    ],
+    "131": [
+        ["புலவி / Pouting", "Respect emotional expressions 💖"],
+        [
+            "What is the primary benefit of respecting emotional expressions in a relationship?",
+            [
+                "Strengthens emotional intimacy",
+                "Fosters mutual understanding",
+                "Encourages open communication",
+                "Builds trust and respect",
+            ],
+            2,
+        ],
+    ],
 }
 
 
