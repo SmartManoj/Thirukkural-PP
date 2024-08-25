@@ -1785,6 +1785,7 @@ tks = {
             2,
         ],
     ],
+    '132': [['புலவி நுணுக்கம் / Feigned Anger', 'Cultivate understanding playfulness 💑'], ['What is the primary benefit of cultivating understanding playfulness in a relationship?', ['Strengthens emotional bonds', 'Enhances mutual trust', 'Encourages open communication', 'Fosters a joyful connection'], 4]]
 }
 
 
