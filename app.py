@@ -1785,7 +1785,32 @@ tks = {
             2,
         ],
     ],
-    '132': [['புலவி நுணுக்கம் / Feigned Anger', 'Cultivate understanding playfulness 💑'], ['What is the primary benefit of cultivating understanding playfulness in a relationship?', ['Strengthens emotional bonds', 'Enhances mutual trust', 'Encourages open communication', 'Fosters a joyful connection'], 4]]
+    "132": [
+        ["புலவி நுணுக்கம் / Feigned Anger", "Cultivate understanding playfulness 💑"],
+        [
+            "What is the primary benefit of cultivating understanding playfulness in a relationship?",
+            [
+                "Strengthens emotional bonds",
+                "Enhances mutual trust",
+                "Encourages open communication",
+                "Fosters a joyful connection",
+            ],
+            4,
+        ],
+    ],
+    "133": [
+        ["ஊடலுவகை / The Pleasures of Temporary Variance", "Create life 💞"],
+        [
+            "What is the primary benefit of creating life in a relationship?",
+            [
+                "Deepens emotional intimacy",
+                "Fosters a sense of shared purpose",
+                "Strengthens the relationship foundation",
+                "Adds excitement and passion",
+            ],
+            2,
+        ],
+    ],
 }
 
 
