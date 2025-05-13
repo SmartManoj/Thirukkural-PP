@@ -2,3 +2,4 @@
 t.py
 *.db
 gt.py
+__pycache__
