@@ -118,10 +118,10 @@ tks = {
         ["How many babies will you have?", ["None", "1-2", "3-4", "More than 4"], 4],
     ],
     "7": [
-        ["மக்கட்பேறு / The Wealth of Children", "Educate your child."],
+        ["மக்கட்பேறு / The Wealth of Children", "Rightly educate your child."],
         [
             "How will you educate your child?",
-            ["School", "College", "University", "AI"],
+            ["School", "College", "University", "AI Tutor"],
             4,
         ],
     ],
