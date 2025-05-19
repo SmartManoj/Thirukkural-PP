@@ -126,14 +126,14 @@ tks = {
         ],
     ],
     "8": [
-        ["அன்புடைமை / The Possession of Love", "Show compassion 🥰"],
+        ["அன்புடைமை / The Possession of Love", "Embrace Love 🥰"],
         [
-            "What might be a reason why most people do not show compassion?",
+            "What might be a reason why most people do not embrace love?",
             [
-                "Lack of understanding or awareness",
-                "Selfishness or self-centeredness",
-                "Fear of vulnerability",
-                "Belief that compassion is not important",
+                "Lack of people to love",
+                "Lack of time",
+                "Lack of resources",
+                "Belief that love is not important",
             ],
             1,
         ],
