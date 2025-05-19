@@ -1831,8 +1831,13 @@ def page(page):
     correct_answer = quiz[1][quiz[2]-1]
     quiz[1] = random.sample(quiz[1], len(quiz[1]))
     quiz[2] = quiz[1].index(correct_answer)+1
+    img_extension = ''
+    if os.path.exists(f'static/imgs/{page}.jpeg'):
+        img_extension = '.jpeg'
+    elif os.path.exists(f'static/imgs/{page}.png'):
+        img_extension = '.png'
 
-    return render_template('h.html', page = page, tk = tk, quiz = quiz, max_quiz = max_quiz)
+    return render_template('h.html', page = page, tk = tk, quiz = quiz, max_quiz = max_quiz, img_extension = img_extension)
 
 @app.route('/score')
 def score():
