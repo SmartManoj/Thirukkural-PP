@@ -155,10 +155,10 @@ tks = {
         ],
     ],
     "11": [
-        ["செய்ந்நன்றி அறிதல் / Gratitude", "Give [AppreciCoin](https://shareg.pt/56ZzUra)"],
+        ["செய்ந்நன்றி அறிதல் / Gratitude", "Pay it forward."],
         [
             "How will you show gratitude?",
-            ["Thank you", "Gift", "Hug", "Give AppreciCoin"],
+            ["Thank you", "Gift", "Pray", "Pay it forward"],
             4,
         ],
     ],
