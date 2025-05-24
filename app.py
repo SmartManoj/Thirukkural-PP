@@ -171,11 +171,16 @@ tks = {
         ],
     ],
     "13": [
-        ["அடக்கமுடைமை / The Possession of Self-restraint", "Be humble."],
+        ["அடக்கமுடைமை / The Possession of Self-restraint", "Have self-control."],
         [
-            "What will you do when someone is boasting?",
-            ["Ignore", "Confront", "Encourage", "Boast"],
-            1,
+            "If you are very angry, 'having self-control' means you should first:",
+            [
+                "Express anger loudly",
+                "Pause and calm down",
+                "Blame others immediately",
+                "Seek revenge later",
+            ],
+            2,
         ],
     ],
     "14": [
