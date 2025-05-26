@@ -184,7 +184,7 @@ tks = {
         ],
     ],
     "14": [
-        ["ஒழுக்கமுடைமை / The Possession of Decorum", "Be disciplined."],
+        ["ஒழுக்கமுடைமை / The Possession of Decorum", "Always follow decorum."],
         [
             "What will you do when someone is misbehaving?",
             ["Ignore", "Confront", "Encourage", "Misbehave"],
