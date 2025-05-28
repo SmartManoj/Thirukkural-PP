@@ -194,7 +194,7 @@ tks = {
     "15": [
         [
             "பிறனில் விழையாமை / Not coveting another's Wife",
-            "Subset of Chapter [18](/18); Don't covet others' wife.",
+            "Subset of Chapter [18](/18); Never covet others' wife.",
         ],
         [
             "What will you do when someone is flirting with your partner?",
@@ -221,7 +221,7 @@ tks = {
         ],
     ],
     "17": [
-        ["அழுக்காறாமை / Not Envying", "Don't envy."],
+        ["அழுக்காறாமை / Not Envying", "Never envy."],
         [
             "How will you respond when someone achieves something you desire?",
             [
@@ -234,7 +234,7 @@ tks = {
         ],
     ],
     "18": [
-        ["வெஃகாமை / Not Coveting", "Avoid coveting."],
+        ["வெஃகாமை / Not Coveting", "Never covet."],
         [
             "How will you respond when you covet something someone else has?",
             [
@@ -247,7 +247,7 @@ tks = {
         ],
     ],
     "19": [
-        ["புறங்கூறாமை / Not Backbiting", "Avoid backbiting."],
+        ["புறங்கூறாமை / Not Backbiting", "Never backbite."],
         [
             "How will you respond when someone speaks ill of others in front of you?",
             [
@@ -377,7 +377,7 @@ tks = {
         ],
     ],
     "29": [
-        ["கள்ளாமை / The Absence of Fraud", "Don't steal!"],
+        ["கள்ளாமை / The Absence of Fraud", "Never steal!"],
         [
             "What are the consequences of stealing?",
             ["Legal repercussions", "Loss of trust", "Personal guilt", "Social stigma"],
@@ -398,7 +398,7 @@ tks = {
         ],
     ],
     "31": [
-        ["வெகுளாமை / Restraining Anger", "Don't get angry."],
+        ["வெகுளாமை / Restraining Anger", "Never anger."],
         [
             "What is the primary benefit of restraining anger?",
             [
@@ -413,7 +413,7 @@ tks = {
     "32": [
         [
             "இன்னாசெய்யாமை / Not doing Evil",
-            "1️⃣ Don't do harm to any creatures.\n2️⃣ If someone harmed you, show them kindness and forget both the actions.",
+            "1️⃣ Never do harm to any creatures.\n2️⃣ If someone harmed you, show them kindness and forget both the actions.",
         ],
         [
             "What are the benefits of not doing evil?",
@@ -427,7 +427,7 @@ tks = {
         ],
     ],
     "33": [
-        ["கொல்லாமை / Not killing", "Don't kill anything."],
+        ["கொல்லாமை / Not killing", "Never kill anything."],
         [
             "What are the benefits of not killing?",
             [
@@ -506,7 +506,7 @@ tks = {
     ],
     # பால்: பொருட்பால்
     "39": [
-        ["இறைமாட்சி / The Greatness of a King", "Don't show partiality!"],
+        ["இறைமாட்சி / The Greatness of a King", "Never show partiality!"],
         [
             "What is the primary benefit of a king not showing partiality?",
             [
@@ -1135,7 +1135,7 @@ tks = {
         ],
     ],
     "86": [
-        ["இகல் / Hostility", "Don't hate!"],
+        ["இகல் / Hostility", "Never hate!"],
         [
             "What is the primary benefit of avoiding hostility?",
             [
@@ -1245,7 +1245,7 @@ tks = {
         ],
     ],
     "94": [
-        ["சூது / Gambling", "Don't Gamble!"],
+        ["சூது / Gambling", "Never gamble!"],
         [
             "What is the primary benefit of not gambling?",
             [
