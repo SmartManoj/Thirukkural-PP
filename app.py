@@ -325,7 +325,7 @@ tks = {
         ],
     ],
     "25": [
-        ["அருளுடைமை / Compassion", "Be compassionate."],
+        ["அருளுடைமை / Compassion", "Always be compassionate."],
         [
             "Why is compassion important in society?",
             [
