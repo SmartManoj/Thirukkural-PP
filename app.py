@@ -286,7 +286,7 @@ tks = {
         ],
     ],
     "22": [
-        ["ஒப்புரவறிதல் / Duty to Society", "Help others."],
+        ["ஒப்புரவறிதல் / Duty to Society", "Make helping others your duty."],
         [
             "Why do some people not help others?",
             [
