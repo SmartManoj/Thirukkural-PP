@@ -312,7 +312,7 @@ tks = {
         ],
     ],
     "24": [
-        ["புகழ் / Renown", "Result of the [previous chapter](/23)."],
+        ["புகழ் / Renown", "Result of moral actions."],
         [
             "How does giving to the poor lead to renown?",
             [
