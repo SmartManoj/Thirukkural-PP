@@ -377,7 +377,7 @@ tks = {
         ],
     ],
     "29": [
-        ["கள்ளாமை / The Absence of Fraud", "Never steal!"],
+        ["கள்ளாமை / The Absence of Fraud", "Never think about fraud!"],
         [
             "What are the consequences of stealing?",
             ["Legal repercussions", "Loss of trust", "Personal guilt", "Social stigma"],
