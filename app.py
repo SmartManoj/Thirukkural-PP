@@ -385,11 +385,11 @@ tks = {
         ],
     ],
     "30": [
-        ["வாய்மை / Veracity", "Speak truth."],
+        ["வாய்மை / Veracity", "Speak with compassion."],
         [
-            "What are the benefits of speaking the truth?",
+            "What are the benefits of speaking with compassion?",
             [
-                "Builds trust in relationships",
+                "Enhances relationships",
                 "Enhances personal integrity",
                 "Reduces stress from deception",
                 "Improves societal standards",
