@@ -398,7 +398,7 @@ tks = {
         ],
     ],
     "31": [
-        ["வெகுளாமை / Restraining Anger", "Never anger."],
+        ["வெகுளாமை / Restraining Anger", "Restrain anger."],
         [
             "What is the primary benefit of restraining anger?",
             [
