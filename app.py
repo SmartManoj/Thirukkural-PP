@@ -413,7 +413,7 @@ tks = {
     "32": [
         [
             "இன்னாசெய்யாமை / Not doing Evil",
-            "1️⃣ Never do harm to any creatures.\n2️⃣ If someone harmed you, show them kindness and forget both the actions.",
+            "1️⃣ Never do harm to any creatures.\n2️⃣ Answer harm with kindness, and then let it go.",
         ],
         [
             "What are the benefits of not doing evil?",
