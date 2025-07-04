@@ -574,14 +574,14 @@ tks = {
         ],
     ],
     "44": [
-        ["குற்றங்கடிதல் / The Correction of Faults", "Right your wrongs!"],
+        ["குற்றங்கடிதல் / The Correction of Faults", "Prevent your wrongs!"],
         [
-            "What is the primary benefit of correcting your faults?",
+            "What is the primary benefit of preventing your wrongs?",
             [
-                "Restores trust",
-                "Promotes personal growth",
+                "Promotes growth",
                 "Enhances relationships",
                 "Improves self-respect",
+                "Restores trust in you",
             ],
             1,
         ],
