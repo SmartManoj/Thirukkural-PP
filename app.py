@@ -712,17 +712,17 @@ tks = {
     "54": [
         [
             "பொச்சாவாமை / Unforgetfulness",
-            "Use the reminder bot (https://t.me/yastabot)!",
+            "Be aware!",
         ],
         [
-            "What is the primary benefit of unforgetfulness?",
+            "What is the primary benefit of being aware?",
             [
-                "Enhances productivity",
-                "Reduces missed deadlines",
-                "Improves reliability",
-                "Increases efficiency",
+                "Reduces stress",
+                "Improves mental health",
+                "Increases resilience",
+                "Improves mindfulness",
             ],
-            3,
+            4,
         ],
     ],
     "55": [
