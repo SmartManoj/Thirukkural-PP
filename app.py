@@ -739,7 +739,7 @@ tks = {
         ],
     ],
     "56": [
-        ["கொடுங்கோன்மை / The Cruel Sceptre", "Avoid cruelty!"],
+        ["கொடுங்கோன்மை / The Cruel Sceptre", "Avoid all forms of cruelty!"],
         [
             "What is the primary benefit of avoiding cruelty?",
             [
