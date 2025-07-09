@@ -765,13 +765,13 @@ tks = {
         ],
     ],
     "58": [
-        ["கண்ணோட்டம் / Benignity", "Subset of [Chapter 8](/8); Be kind 🥰"],
+        ["கண்ணோட்டம் / Benignity", "Practice Empathy 🤝"],
         [
-            "What is the primary benefit of being kind?",
+            "What is the primary benefit of practicing empathy?",
             [
                 "Promotes social harmony",
                 "Builds strong relationships",
-                "Encourages empathy",
+                "Encourages understanding",
                 "Enhances personal happiness",
             ],
             4,
