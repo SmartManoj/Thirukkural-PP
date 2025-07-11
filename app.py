@@ -791,16 +791,16 @@ tks = {
         ],
     ],
     "60": [
-        ["ஊக்கமுடைமை / Energy", "Practice yoga 🧘"],
+        ["ஊக்கமுடைமை / Energy", " Have willpower!"],
         [
-            "What is the primary benefit of practicing yoga?",
+            "What is the primary benefit of having willpower?",
             [
-                "Increases physical strength",
-                "Improves mental clarity",
-                "Boosts overall energy levels",
-                "Enhances flexibility",
+                "Achieves difficult goals",
+                "Increases resilience",
+                "Improves self-discipline",
+                "Enhances decision-making",
             ],
-            3,
+            1,
         ],
     ],
     "61": [
