@@ -882,14 +882,14 @@ tks = {
         ],
     ],
     "67": [
-        ["வினைத்திட்பம் / Power in Action", "Have willpower!"],
+        ["வினைத்திட்பம் / Power in Action", "Execute with determination!"],
         [
-            "What is the primary benefit of having willpower?",
+            "What is the primary benefit of executing with determination?",
             [
-                "Achieves difficult goals",
-                "Increases resilience",
-                "Improves self-discipline",
-                "Enhances decision-making",
+                "Increases productivity",
+                "Reduces stress",
+                "Enhances problem-solving skills",
+                "Builds self-confidence",
             ],
             1,
         ],
