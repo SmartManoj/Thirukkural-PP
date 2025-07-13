@@ -817,14 +817,14 @@ tks = {
         ],
     ],
     "62": [
-        ["ஆள்வினையுடைமை / Manly Effort", "Exert effort 💪"],
+        ["ஆள்வினையுடைமை / Manly Effort", "Always act with sustainable vigor 💪"],
         [
-            "What is the primary benefit of exerting effort?",
+            "What is the primary benefit of always acting with sustainable vigor?",
             [
-                "Achieves goals",
+                "Achieves goals efficiently",
                 "Builds resilience",
                 "Promotes personal growth",
-                "Increases self-confidence",
+                "Increases self-confidence and self-esteem",
             ],
             1,
         ],
