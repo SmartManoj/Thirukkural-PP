@@ -830,7 +830,7 @@ tks = {
         ],
     ],
     "63": [
-        ["இடுக்கணழியாமை / Hopefulness in Trouble", "Always smile 🥰"],
+        ["இடுக்கணழியாமை / Hopefulness in Trouble", "Face sorrow with smile 🥰"],
         [
             "What is the primary benefit of remaining hopeful in trouble?",
             [
