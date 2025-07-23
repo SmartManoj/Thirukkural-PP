@@ -934,9 +934,9 @@ tks = {
         ],
     ],
     "71": [
-        ["குறிப்பறிதல் / The Knowledge of Indications", "Read faces!"],
+        ["குறிப்பறிதல் / The Knowledge of Indications", "Perceive the complete unspoken message!"],
         [
-            "What is the primary benefit of reading facial expressions?",
+            "What is the primary benefit of perceiving the complete unspoken message?",
             [
                 "Detects underlying emotions",
                 "Builds empathy",
