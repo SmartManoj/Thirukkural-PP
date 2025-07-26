@@ -986,16 +986,16 @@ tks = {
         ],
     ],
     "75": [
-        ["அரண் / The Fortification", "Build a Fort!"],
+        ["அரண் / The Fortification", "Secure yourself!"],
         [
-            "What is the primary benefit of building a strong foundation in modern times?",
+            "What is the primary benefit of securing yourself?",
             [
-                "Ensures security",
+                "Ensures safety",
                 "Strengthens organizational structure",
                 "Supports long-term success",
-                "Enhances resilience",
+                "Enhances self-confidence",
             ],
-            1,
+            4,
         ],
     ],
     "76": [
