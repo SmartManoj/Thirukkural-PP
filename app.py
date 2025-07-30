@@ -1051,16 +1051,16 @@ tks = {
         ],
     ],
     "80": [
-        ["நட்பாராய்தல் / Investigation in forming Friendships", "Reform your friends 📝"],
+        ["நட்பாராய்தல் / Investigation in forming Friendships", "Befriend one after they reformed 📝"],
         [
-            "What is the primary benefit of reforming friendships?",
+            "What is the primary benefit of befriending one after they reformed?",
             [
                 "Creates deeper connections",
                 "Promotes mutual respect",
                 "Builds a trustworthy network",
-                "Enhances social harmony",
+                "Gives one a second chance",
             ],
-            1,
+            4,
         ],
     ],
     "81": [
