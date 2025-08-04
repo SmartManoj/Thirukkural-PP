@@ -1106,7 +1106,7 @@ tks = {
         ],
     ],
     "84": [
-        ["பேதைமை / Folly", "Use [ChatGPT](https://chatgpt.com)!"],
+        ["பேதைமை / Folly", "Side effects of not using [ChatGPT](https://chatgpt.com)!"],
         [
             "What is the primary benefit of using ChatGPT?",
             [
