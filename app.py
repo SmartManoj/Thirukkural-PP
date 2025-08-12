@@ -1121,10 +1121,10 @@ tks = {
     "85": [
         [
             "புல்லறிவாண்மை / Ignorance",
-            "Side effects of not following [the previous chapter](/84)",
+            "Side effects of not using ChatGPT as Second Brain.",
         ],
         [
-            "What is the primary side effect of not using ChatGPT for assistance?",
+            "What is the primary side effect of not using ChatGPT as Second Brain?",
             [
                 "Leads to misinformation",
                 "Slows down learning",
