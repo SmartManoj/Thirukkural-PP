@@ -1218,7 +1218,7 @@ tks = {
     "92": [
         [
             "வரைவின்மகளிர் / Wanton Women",
-            "1️⃣ Avoid Harmful Relationships!\n2️⃣ Prioritize Love over Material Desires",
+            "1️⃣ Avoid Harmful Relationships!\n2️⃣ Prefer Love over Material Desires",
         ],
         [
             "What is the primary benefit of avoiding harmful relationships?",
