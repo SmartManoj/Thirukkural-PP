@@ -1274,16 +1274,16 @@ tks = {
         ],
     ],
     "96": [
-        ["குடிமை / Nobility", "Be generous!"],
+        ["குடிமை / Nobility", "Be noble!"],
         [
-            "What is the primary benefit of being generous?",
+            "What is the primary benefit of being noble?",
             [
                 "Builds strong relationships",
-                "Enhances personal happiness",
+                "Enhances personal well-being",
                 "Promotes social harmony",
-                "Inspires others to give",
+                "Inspires others to be noble",
             ],
-            2,
+            4,
         ],
     ],
     "97": [
