@@ -1378,7 +1378,7 @@ tks = {
         ],
     ],
     "104": [
-        ["உழவு / Farming", "Automate the Farming!"],
+        ["உழவு / Farming", "Nobly Automate the Natural Farming!"],
         [
             "What is the primary benefit of automating farming?",
             [
