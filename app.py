@@ -1391,16 +1391,16 @@ tks = {
         ],
     ],
     "105": [
-        ["நல்குரவு / Poverty", "Live in harmony with nature!"],
+        ["நல்குரவு / Poverty", "Provide Equity!"],
         [
-            "What is the primary benefit of living in harmony with nature?",
+            "What is the primary benefit of providing equity?",
             [
-                "Reduces environmental impact",
-                "Promotes sustainability",
+                "Betterment of the society",
+                "Promotes social justice",
                 "Enhances well-being",
-                "Fosters community resilience",
+                "Fosters community development",
             ],
-            2,
+            1,
         ],
     ],
     "106": [
