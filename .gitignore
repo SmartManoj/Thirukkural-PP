@@ -6,3 +6,5 @@ __pycache__
 nlm.py
 upload_video.py
 upload_video.py-oauth2.json
+cookies.json
+tweet_poster.py
