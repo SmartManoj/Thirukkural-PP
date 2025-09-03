@@ -1521,7 +1521,7 @@ tks = {
         ],
     ],
     "114": [
-        ["நாணுத்துறவுரைத்தல் / The Abandonment of Reserve", "Build Love Guru Bot 🤖"],
+        ["நாணுத்துறவுரைத்தல் / The Abandonment of Reserve", "Use Love Guru Bot 🤖"],
         [
             "What is the primary benefit of building Love Guru Bot?",
             [
