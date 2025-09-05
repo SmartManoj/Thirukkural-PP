@@ -1550,14 +1550,14 @@ tks = {
         ],
     ],
     "116": [
-        ["பிரிவாற்றாமை / Separation unendurable", "Create your AR Avatar 🌐"],
+        ["பிரிவாற்றாமை / Separation unendurable", "Prioritize Emotional Proximity."],
         [
-            "What is the primary benefit of creating your AR Avatar?",
+            "What is the primary benefit of prioritizing emotional proximity?",
             [
-                "Bridges emotional distance",
-                "Provides a personalized digital presence",
-                "Facilitates virtual interaction",
-                "Helps maintain emotional connection",
+                "Deepens emotional connection",
+                "Fosters mutual understanding",
+                "Strengthens the relationship",
+                "Enhances emotional intimacy",
             ],
             1,
         ],
