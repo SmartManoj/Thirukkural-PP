@@ -1536,7 +1536,7 @@ tks = {
     "115": [
         [
             "அலரறிவுறுத்தல் / The Announcement of the Rumour",
-            "Side effects of not following [the previous chapter](/114)",
+            "Make Parents use Communication Coach bot.",
         ],
         [
             "What is the primary side effect of rumors spreading?",
