@@ -1565,7 +1565,7 @@ tks = {
     "117": [
         [
             "படர்மெலிந்திரங்கல் / Complainings",
-            "Side effects of not following [the previous chapter](/116)",
+            "Side effects of not following [chapter 116](/116)",
         ],
         [
             "What is the primary consequence of self-complaining?",
@@ -1581,7 +1581,7 @@ tks = {
     "118": [
         [
             "கண்விதுப்பழிதல் / Eyes consumed with Grief",
-            "Side effects of not seeing [the previous chapter](/117)",
+            "Side effects of not seeing [chapter 116](/116)",
         ],
         [
             "What is the primary side effect of eyes consumed with grief?",
@@ -1597,7 +1597,7 @@ tks = {
     "119": [
         [
             "பசப்புறுபருவரல் / The Pallid Hue",
-            "Side effects of not following [the previous chapter](/118)",
+            "Side effects of not heeding [chapter 116](/116)",
         ],
         [
             "What is the primary emotional impact of the pallid hue caused by grief?",
@@ -1611,14 +1611,14 @@ tks = {
         ],
     ],
     "120": [
-        ["தனிப்படர்மிகுதி / The Solitary Anguish", "Join in your partner's journey 💑"],
+        ["தனிப்படர்மிகுதி / The Solitary Anguish", "Side effects of not addressing [chapter 116](/116)",],
         [
-            "What is the primary benefit of joining in your partner's journey?",
+            "What is the primary side effect of isolating oneself?",
             [
-                "Strengthens emotional bonds",
-                "Fosters mutual understanding",
-                "Reduces feelings of isolation",
-                "Enhances relationship resilience",
+                "Increases feelings of loneliness",
+                "Prolongs feelings of isolation",
+                "Hinders emotional healing",
+                "Deepens feelings of regret",
             ],
             3,
         ],
@@ -1626,7 +1626,7 @@ tks = {
     "121": [
         [
             "நினைந்தவர்புலம்பல் / Sad Memories",
-            "Side effects of not following [the previous chapter](/120)",
+            "Side effects of not adhering [chapter 116](/116)",
         ],
         [
             "What is the primary side effect of dwelling on sad memories?",
@@ -1642,7 +1642,7 @@ tks = {
     "122": [
         [
             "கனவுநிலையுரைத்தல் / The Visions of the Night",
-            "Side effects of not dreaming [the previous chapter](/121)",
+            "Side effects of not realizing [chapter 116](/116)",
         ],
         [
             "What is the primary side effect of disturbing dreams?",
@@ -1658,7 +1658,7 @@ tks = {
     "123": [
         [
             "பொழுதுகண்டிரங்கல் / Lamentations at Eventide",
-            "Side effects of not following [the previous chapter](/122)",
+            "Side effects of not reconciling [chapter 116](/116)",
         ],
         [
             "What is the primary side effect of lamenting at eventide?",
@@ -1674,7 +1674,7 @@ tks = {
     "124": [
         [
             "உறுப்புநலனழிதல் / Wasting Away",
-            "Side effects of not addressing [the previous chapter](/123)",
+            "Side effects of not fulfilling [chapter 116](/116)",
         ],
         [
             "What is the primary side effect of wasting away?",
@@ -1690,7 +1690,7 @@ tks = {
     "125": [
         [
             "நெஞ்சொடுகிளத்தல் / Soliloquy",
-            "Side effects of not following [the previous chapter](/124)",
+            "Side effects of not upholding [chapter 116](/116)",
         ],
         [
             "What is the primary side effect of engaging in a soliloquy?",
@@ -1706,7 +1706,7 @@ tks = {
     "126": [
         [
             "நிறையழிதல் / Reserve Overcome",
-            "Side effects of ignoring [the previous chapter](/125)",
+            "Side effects of ignoring [chapter 116](/116)",
         ],
         [
             "What is the primary side effect of overcoming reserve?",
@@ -1722,7 +1722,7 @@ tks = {
     "127": [
         [
             "அவர்வயின்விதும்பல் / Mutual Desire",
-            "Side effects of not following [the previous chapter](/126)",
+            "Side effects of not recovering [chapter 116](/116)",
         ],
         [
             "What is the primary side effect of unfulfilled mutual desire?",
